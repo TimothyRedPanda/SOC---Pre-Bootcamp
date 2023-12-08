@@ -2,3 +2,26 @@
 	font-family: "Circular", sans-serif;
 	src: url(Fonts/airbnb-cereal-font/AirbnbCereal_W_Bd.otf);
 }
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Circular";
+	font-weight: 400;
+	letter-spacing: normal;
+	line-height: 20px;
+	font-size: 14px;
+}
+
+.container {
+	display: flex;
+	flex-flow: column;
+	max-width: 100vw;
+	height: 900px;
+	border: 2px solid grey;
+	overflow: scroll;
+}
