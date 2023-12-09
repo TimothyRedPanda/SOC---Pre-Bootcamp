@@ -1,6 +1,6 @@
 @font-face {
-	font-family: "Circular", sans-serif;
-	src: url(Fonts/airbnb-cereal-font/AirbnbCereal_W_Bd.otf);
+	font-family: "Montserrat";
+	src: url(Fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
 }
 
 *,
@@ -10,8 +10,8 @@
 }
 
 body {
-	font-family: "Circular" Helvetica, sans-serif;
-	line-height: 1.43;
+	font-family: "Montserrat";
+	/* line-height: 1.43; */
 	color: #222;
 	background-color: #fff;
 	margin: 0;
@@ -19,7 +19,58 @@ body {
 }
 
 #container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 10rem;
 	max-width: 100vw;
 	height: 900px;
 	border: solid 1px #000;
+}
+
+.img-container {
+	display: flex;
+	flex-flow: column wrap;
+}
+
+img {
+	object-fit: cover;
+	width: 270px;
+	height: 270px;
+	border-radius: 15px;
+}
+
+.img-text {
+	display: grid;
+	align-items: center;
+	max-width: 270px;
+	grid-template-columns: 80% 20%;
+	grid-template-rows: repeat(5, 25px);
+}
+
+.country-name {
+	font-weight: 700;
+	grid-area: 1/1/2/2;
+}
+
+.description {
+	font-weight: 400;
+	grid-area: 2/1/3/2;
+}
+
+.date {
+	grid-area: 3/1/4/2;
+}
+
+.rating {
+	grid-area: 1/2/2/3;
+}
+
+.price {
+	grid-area: 4/1/5/2;
+}
+
+.digits {
+	font-weight: bold;
 }
