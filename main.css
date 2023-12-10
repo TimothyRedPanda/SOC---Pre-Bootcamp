@@ -11,8 +11,8 @@
 	--font-large: 700;
 	--font-bold: bold;
 	--text-decoration: underline;
-	--img-sizings: 245px;
-	--img-container: 245px;
+	--img-sizings: 300px;
+	--img-container-height: 360px;
 	--heart-width: 27px;
 }
 
@@ -23,6 +23,7 @@
 }
 
 body {
+	letter-spacing: 0.5px;
 	font-size: 14px;
 	font-family: var(--font-family);
 	line-height: 1.43;
@@ -39,10 +40,8 @@ body {
 	flex-flow: row wrap;
 	justify-content: center;
 	padding-top: 15vh;
-	padding-left: 2vw;
-	padding-right: 2vw;
 	max-width: 100vw;
-	height: 900px;
+	height: 1200px;
 	z-index: 2;
 }
 
@@ -52,8 +51,10 @@ body {
 }
 
 .image-container {
+	margin-bottom: 5vh;
 	position: relative;
-	width: 245px;
+	width: var(--img-sizings);
+	height: var(--img-container-height);
 }
 
 .Heart {
