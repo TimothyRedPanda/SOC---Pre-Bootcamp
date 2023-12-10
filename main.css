@@ -83,7 +83,7 @@ body {
 img {
 	grid-area: 1/1/2/2;
 	object-fit: cover;
-	max-width: var(--img-sizings);
+	width: var(--img-sizings);
 	height: var(--img-sizings);
 	border-radius: 10px;
 	z-index: -1;
