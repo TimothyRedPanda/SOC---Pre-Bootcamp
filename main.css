@@ -37,12 +37,7 @@ body {
 	gap: 2rem;
 	flex-flow: row wrap;
 	justify-content: center;
-<<<<<<< HEAD
-	align-items: space-evenly;
-	padding-top: 10vh;
-=======
 	padding-top: 15vh;
->>>>>>> 4bde02ef71df35c08b391cceb8fc583545fa0ef2
 	padding-left: 5vw;
 	padding-right: 5vw;
 	max-width: 100vw;
@@ -85,7 +80,7 @@ body {
 	opacity: 100%;
 }
 
-img{
+img {
 	grid-area: 1/1/2/2;
 	object-fit: cover;
 	max-width: var(--img-sizings);
