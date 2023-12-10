@@ -50,7 +50,6 @@ body {
 #container1 {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(var(--img-container-width), 1fr));
-	/* grid-template-rows: repeat(auto-fit, var(--img-container-height)); */
 	grid-gap: 20px;
 	margin-left: 3%;
 	margin-right: 3%;
