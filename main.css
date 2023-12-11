@@ -19,6 +19,7 @@
 	--img-container-width: 275px;
 	--heart-width: 27px;
 	--icon-widths: 24px;
+	--icon-container-width: 1fr;
 }
 
 *,
@@ -90,11 +91,12 @@ body {
 
 .icon-container {
 	overflow: scroll;
-	display: flex;
-	column-gap: 30px;
-	align-items: center;
+	display: grid;
+	grid-gap: 20px;
+	grid-auto-flow: column;
+	grid-template-columns: repeat(auto-fit, minmax(var(--icon-container-width), 1fr));
 	padding: 0 20px 0 20px;
-	width: 100%;
+	width: 100vw;
 	height: 50%;
 }
 
@@ -136,7 +138,7 @@ body {
 	width: var(--heart-width);
 	height: var(--heart-width);
 	z-index: 3;
-	transition: all 0.5s ease-in-out;
+	transition: all 1s ease-in-out;
 }
 
 .Heart-Filled:hover {
