@@ -5,17 +5,16 @@
 
 :root {
 	--font-color: #222;
-	--web-background: var(--gray-0);
+	--web-background: #fff;
 	--font-family: "Montserrat";
 	--font-normal: 300;
 	--font-large: 700;
 	--font-bold: bold;
-	--box-shadow: var(--shadow-2);
 	--text-decoration: underline;
 	--img-sizings-width: 100%;
-	--img-sizings-height: 70%;
+	--img-sizings-height: 259px;
 	--text-sizing-width: 100%;
-	--text-sizing-height: 30%;
+	--text-sizing-height: 85px;
 	--img-container-height: 358px;
 	--img-container-width: 275px;
 	--heart-width: 27px;
@@ -50,7 +49,6 @@ body {
 	height: 15vh;
 	width: 100%;
 	background-color: var(--web-background);
-	box-shadow: var(--box-shadow);
 }
 
 .search-bar-container {
@@ -116,13 +114,14 @@ body {
 }
 
 .image-container {
+	padding-top: 10px;
 	max-height: var(--img-container-height);
 	position: relative;
 }
 
 .Heart {
 	position: absolute;
-	top: 3%;
+	top: 5%;
 	right: 5%;
 	width: var(--heart-width);
 	height: var(--heart-width);
@@ -132,7 +131,7 @@ body {
 .Heart-Filled {
 	opacity: 0%;
 	position: absolute;
-	top: 3%;
+	top: 5%;
 	right: 5%;
 	width: var(--heart-width);
 	height: var(--heart-width);
