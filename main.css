@@ -11,7 +11,7 @@
 	--line-height-large: 1.5;
 	--font-size-small: 12px;
 	--font-normal: 300;
-	--font-large: 700;
+	--font-large: 600;
 	--font-bold: bold;
 	--font-size: 14px;
 	--letter-spacing: 0.5px;
@@ -193,6 +193,12 @@ body {
 .rating {
 	text-align: right;
 	grid-area: 1/2/2/3;
+	font-size: 16px;
+	font-weight: var(--font-size-medium);
+}
+.rating::before {
+	content: "\02605";
+	font-size: 19px;
 }
 
 .price {
