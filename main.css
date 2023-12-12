@@ -16,12 +16,8 @@
 	--font-size: 14px;
 	--letter-spacing: 0.5px;
 	--text-decoration: underline;
-	--img-sizings-width: 100%;
-	--img-sizings-height: 275px;
-	--text-sizing-width: 100%;
-	--text-sizing-height: 85px;
-	--img-container-height: 358px;
-	--img-container-width: 275px;
+	--img-container-height: 364px;
+	--img-container-width: 345px;
 	--heart-width: 27px;
 	--icon-widths: 24px;
 	--icon-container-width: 1fr;
@@ -30,6 +26,7 @@
 	--search-bar-radius: 100px;
 	--image-corner-radius: 15px;
 	--filter-button-radius: 100px;
+	--box-shadow: var(--shadow-2);
 }
 
 *,
@@ -46,7 +43,6 @@ body {
 	font-weight: var(--font-normal);
 	color: var(--font-color);
 	background-color: var(--web-background);
-	margin: 0;
 	line-break: strict;
 }
 
@@ -58,9 +54,11 @@ body {
 	top: 0;
 	z-index: 100;
 	width: 100%;
+	margin-bottom: 5%;
 	padding: 0 20px 0 20px;
 	height: fit-content;
 	background-color: var(--web-background);
+	box-shadow: var(--box-shadow);
 }
 
 .search-bar-container {
@@ -68,7 +66,7 @@ body {
 	width: 100%;
 	height: fit-content;
 	gap: 10px;
-	padding: 5px 20px 5px 20px;
+	padding: 0px 20px 0px 20px;
 	flex-flow: row nowrap;
 }
 
@@ -97,8 +95,8 @@ body {
 .ind-icons {
 	display: flex;
 	opacity: 60%;
-	height: 50px;
-	padding-bottom: 10px;
+	height: 100%;
+	padding: 10px 0px 10px 0px;
 	align-items: center;
 	white-space: nowrap;
 	flex-flow: column;
@@ -113,10 +111,9 @@ body {
 
 #container1 {
 	display: grid;
+	grid-gap: 4rem;
 	grid-template-columns: repeat(auto-fit, minmax(var(--img-container-width), 1fr));
-	grid-gap: 20px;
-	margin: 0 3% 0 3%;
-	max-width: 100vw;
+	width: 100vw;
 	height: fit-content;
 	z-index: 2;
 }
@@ -127,26 +124,24 @@ body {
 }
 
 .image-container {
-	padding-top: 10px;
-	max-height: var(--img-container-height);
 	position: relative;
+	justify-self: center;
+	max-width: var(--img-container-width);
+	max-height: var(--img-container-height);
 }
 
 .location-image {
-	display: grid;
-	margin-bottom: 10px;
-	grid-area: 1/1/2/2;
-	object-fit: cover;
-	width: var(--img-sizings-width);
-	height: var(--img-sizings-height);
 	border-radius: var(--image-corner-radius);
+	width: 100%;
+	height: 80%;
 	z-index: -1;
+	object-fit: cover;
 }
 
 .Heart {
 	position: absolute;
-	top: 5%;
-	right: 5%;
+	top: 10px;
+	right: 10px;
 	width: var(--heart-width);
 	height: var(--heart-width);
 	z-index: 3;
@@ -155,8 +150,8 @@ body {
 .Heart-Filled {
 	opacity: 0%;
 	position: absolute;
-	top: 5%;
-	right: 5%;
+	top: 10px;
+	right: 10px;
 	width: var(--heart-width);
 	height: var(--heart-width);
 	z-index: 3;
@@ -169,12 +164,11 @@ body {
 
 .img-text {
 	width: var(--text-sizing-width);
-	height: var(--text-sizing-height);
-	margin-bottom: 10px;
 	display: grid;
 	align-items: center;
+	height: 20%;
 	grid-template-columns: 80% 20%;
-	grid-template-rows: repeat(6, 15px);
+	grid-template-rows: repeat(5, 25%);
 }
 
 .country-name {
