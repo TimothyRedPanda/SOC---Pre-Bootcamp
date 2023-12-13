@@ -1,5 +1,5 @@
 @font-face {
-	font-family: "Cereal-Standard";
+	font-family: "Montserrat";
 	src: url(Fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
 }
 
@@ -25,17 +25,26 @@
 *,
 *::before,
 *::after {
+	padding: 0;
+	margin: 0;
 	box-sizing: border-box;
 }
 
-body {
-	display: contents;
-	font-family: "Cereal-standard", sans-serif;
-	font-size: 0.875rem;
-	font-weight: 400;
-	line-height: 1.43;
-	letter-spacing: normal;
+html {
+	font-family: "Montserrat";
+	font-size: 16px;
+	line-height: normal;
 	word-spacing: normal;
+	font-weight: 400;
+}
+
+body {
+	font-family: inherit;
+	font-size: 0.875rem;
+	font-weight: inherit;
+	line-height: 1.43;
+	letter-spacing: inherit;
+	word-spacing: inherit;
 	background-color: var(--web-background);
 	line-break: strict;
 }
@@ -229,7 +238,7 @@ body {
 	height: 85px;
 	font-size: 0.9375rem;
 	line-height: 1.1875rem;
-	font-weight: 400;
+	font-weight: inherit;
 	grid-template-columns: 80% 20%;
 	grid-template-rows: repeat(5, 15px);
 }
@@ -282,7 +291,7 @@ header {
 }
 
 .show-more-container {
-	font-size: 16px;
+	font-size: inherit;
 	font-weight: 600;
 	width: 100vw;
 	display: flex;
@@ -299,9 +308,8 @@ header {
 }
 
 footer {
-	width: 100vw;
-	height: 900px;
-	background: #f7f7f7;
+	overflow: hidden;
+	background-color: #f7f7f7;
 }
 
 .footer-container {
