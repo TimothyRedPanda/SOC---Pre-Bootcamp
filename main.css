@@ -1,25 +1,23 @@
 @font-face {
-	font-family: "Montserrat";
-	src: url(Fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+	font-family: "Cereal-Standard";
+	src: url(Fonts/Airbnb/Airbnb_Cereal-Book.woff2);
+}
+
+@font-face {
+	font-family: "Cereal-Medium";
+	src: url(Fonts/Airbnb/Airbnb_Cereal-Medium.woff2);
+}
+
+@font-face {
+	font-family: "Cereal-Bold";
+	src: url(Fonts/Airbnb/Airbnb_Cereal-Bold.woff2);
 }
 
 :root {
-	--font-color: #222;
+	--font-color-bold: #222;
+	--font-color-standard: #717171;
+	--font-color-white: #fff;
 	--web-background: #fff;
-	--font-family: "Montserrat";
-	--line-height: 1.43;
-	--line-height-large: 1.5;
-	--line-height-extra-large: 1.75;
-	--font-size-small: 12px;
-	--font-size-medium: 16px;
-	--font-size-large: 18px;
-	--font-normal: 300;
-	--font-medium: 500;
-	--font-large: 600;
-	--font-bold: bold;
-	--font-size: 14px;
-	--letter-spacing: -0.5px;
-	--letter-spacing-smaller: -0.25px;
 	--text-decoration: underline;
 	--img-container-height: 445px;
 	--img-container-width: 365px;
@@ -42,13 +40,12 @@
 
 body {
 	display: contents;
-	word-spacing: -1px;
-	letter-spacing: var(--letter-spacing);
-	font-size: var(--font-size);
-	font-family: var(--font-family);
-	line-height: var(--line-height);
-	font-weight: var(--font-normal);
-	color: var(--font-color);
+	font-family: "Cereal-Standard";
+	font-size: 0.875rem;
+	font-weight: 400;
+	line-height: 1.43;
+	letter-spacing: normal;
+	word-spacing: normal;
 	background-color: var(--web-background);
 	line-break: strict;
 }
@@ -72,6 +69,8 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-size: 14px;
+	line-height: 20px;
 	width: 100%;
 	height: fit-content;
 	gap: 10px;
@@ -94,15 +93,16 @@ body {
 }
 
 .Text-Icons {
-	font-size: var(--font-size-small);
-	line-height: var(--line-height-large);
-	letter-spacing: normal;
 	text-align: center;
 }
 
 .ind-icons {
 	display: flex;
-	opacity: 60%;
+	opacity: 80%;
+	color: var(--font-color-standard);
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: 600;
 	height: 100%;
 	padding: 10px 0px 10px 0px;
 	align-items: center;
@@ -113,8 +113,8 @@ body {
 .ind-icons:hover {
 	cursor: pointer;
 	opacity: 100%;
+	color: var(--font-color-bold);
 	border-bottom: solid 2px #222;
-	font-weight: var(--font-bold);
 }
 
 .magnifier {
@@ -136,22 +136,25 @@ body {
 	border: solid 1px #d7d7d7;
 	flex-flow: row;
 	white-space: nowrap;
-	letter-spacing: var(--letter-spacing);
 	box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
 }
 
 .Main-Search {
 	width: 100%;
+	color: var(--font-color-bold);
 	display: flex;
 	font-size: var(--font-size-medium);
-	font-weight: 500;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 1.25rem;
 }
 
 .Secondary-Search {
 	display: flex;
+	color: var(--font-color-standard);
 	gap: 3px;
-	font-size: 10px;
-	font-weight: var(--font-normal);
+	font-size: 12px;
+	line-height: 16px;
 }
 
 .filter-icons-contain {
@@ -181,7 +184,6 @@ body {
 
 #container1 a {
 	text-decoration: none;
-	color: var(--font-color);
 }
 
 .image-container {
@@ -229,29 +231,33 @@ body {
 	width: var(--text-sizing-width);
 	display: grid;
 	align-items: center;
+	color: var(--font-color-bold);
 	height: 85px;
+	font-size: 0.9375rem;
+	line-height: 1.1875rem;
+	font-weight: 400;
 	grid-template-columns: 80% 20%;
 	grid-template-rows: repeat(5, 15px);
 }
 
 .country-name {
-	font-weight: var(--font-large);
+	font-weight: 600;
 	grid-area: 1/1/2/2;
 }
 
 .description {
+	color: var(--font-color-standard);
 	grid-area: 2/1/3/2;
 }
 
 .date {
+	color: var(--font-color-standard);
 	grid-area: 3/1/4/2;
 }
 
 .rating {
 	text-align: right;
 	grid-area: 1/2/2/3;
-	font-size: 16px;
-	font-weight: var(--font-size-medium);
 }
 .rating::before {
 	content: "\02605";
@@ -264,15 +270,13 @@ body {
 }
 
 .digits {
-	font-weight: var(--font-bold);
+	font-weight: 600;
 }
 
-.Footer-Button {
-	line-height: var(--line-height-extra-large);
-}
 header {
-	font-size: var(--font-size-large);
-	font-weight: var(--font-large);
+	font-size: 1.125rem;
+	line-height: 1.375rem;
+	font-weight: 600;
 }
 
 .button-title {
@@ -284,6 +288,8 @@ header {
 }
 
 .show-more-container {
+	font-size: 16px;
+	font-weight: 600;
 	width: 100vw;
 	display: flex;
 	flex-flow: column nowrap;
@@ -291,14 +297,11 @@ header {
 	align-items: center;
 }
 .show-more {
-	font-size: var(--font-size-medium);
-	font-weight: var(--font-medium);
-	letter-spacing: var(--letter-spacing-smaller);
-	padding: 10px 24px 10px 24px;
+	padding: 15px 24px 15px 24px;
 	margin-bottom: 30px;
 	background-color: #222;
 	border-radius: 10px;
-	color: #fff;
+	color: var(--font-color-white);
 }
 
 footer {
@@ -312,5 +315,8 @@ footer {
 }
 
 h2 {
-	font-weight: var(--font-large);
+	font-size: 22px;
+	line-height: 26px;
+	letter-spacing: -0.22px;
+	font-weight: 600;
 }
