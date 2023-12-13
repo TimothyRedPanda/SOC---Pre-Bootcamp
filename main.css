@@ -9,12 +9,17 @@
 	--font-family: "Montserrat";
 	--line-height: 1.43;
 	--line-height-large: 1.5;
+	--line-height-extra-large: 1.75;
 	--font-size-small: 12px;
+	--font-size-medium: 16px;
+	--font-size-large: 18px;
 	--font-normal: 300;
+	--font-medium: 500;
 	--font-large: 600;
 	--font-bold: bold;
 	--font-size: 14px;
 	--letter-spacing: 0.5px;
+	--letter-spacing-smaller: 0.25px;
 	--text-decoration: underline;
 	--img-container-height: 445px;
 	--img-container-width: 365px;
@@ -36,6 +41,7 @@
 }
 
 body {
+	display: contents;
 	letter-spacing: var(--letter-spacing);
 	font-size: var(--font-size);
 	font-family: var(--font-family);
@@ -130,7 +136,7 @@ body {
 	flex-flow: row;
 	white-space: nowrap;
 	letter-spacing: var(--letter-spacing);
-	box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.45);
+	box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
 }
 
 .Main-Search {
@@ -258,4 +264,48 @@ body {
 
 .digits {
 	font-weight: var(--font-bold);
+}
+
+.Footer-Button {
+	line-height: var(--line-height-extra-large);
+}
+header {
+	font-size: var(--font-size-large);
+	font-weight: var(--font-large);
+}
+
+.button-title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	padding-bottom: 14px;
+}
+
+.show-more-container {
+	width: 100vw;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+}
+.show-more {
+	font-size: var(--font-size-medium);
+	font-weight: var(--font-medium);
+	letter-spacing: var(--letter-spacing-smaller);
+	padding: 10px 24px 10px 24px;
+	margin-bottom: 30px;
+	background-color: #222;
+	border-radius: 10px;
+	color: #fff;
+}
+
+footer {
+	width: 100vw;
+	height: 900px;
+	background: #f7f7f7;
+}
+
+.footer-container {
+	padding: 48px 24px 48px 24px;
 }
