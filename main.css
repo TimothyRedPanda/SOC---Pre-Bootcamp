@@ -18,8 +18,8 @@
 	--font-large: 600;
 	--font-bold: bold;
 	--font-size: 14px;
-	--letter-spacing: 0.5px;
-	--letter-spacing-smaller: 0.25px;
+	--letter-spacing: -0.5px;
+	--letter-spacing-smaller: -0.25px;
 	--text-decoration: underline;
 	--img-container-height: 445px;
 	--img-container-width: 365px;
@@ -42,6 +42,7 @@
 
 body {
 	display: contents;
+	word-spacing: -1px;
 	letter-spacing: var(--letter-spacing);
 	font-size: var(--font-size);
 	font-family: var(--font-family);
@@ -308,4 +309,8 @@ footer {
 
 .footer-container {
 	padding: 48px 24px 48px 24px;
+}
+
+h2 {
+	font-weight: var(--font-large);
 }
