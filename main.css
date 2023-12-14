@@ -99,7 +99,7 @@ body {
 
 .ind-icons {
 	display: flex;
-	opacity: 80%;
+	opacity: 60%;
 	color: var(--font-color-standard);
 	font-size: 0.75rem;
 	line-height: 1rem;
@@ -371,13 +371,13 @@ h2 {
 }
 
 .future-getaways-grid {
-	width: 100vw;
-	height: 13.5rem;
+	height: fit-content;
 	padding: 2rem 0 0 0;
 }
 
 .inspiration-order {
 	display: grid;
+	width: fit-content;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(auto-fit, minmax(4, 1fr));
 	justify-content: center;
