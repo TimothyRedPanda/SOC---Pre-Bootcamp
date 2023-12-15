@@ -454,6 +454,7 @@ h3 {
 
 .footer-end {
 	width: 100%;
+	white-space: nowrap;
 	padding: 1.5rem 0 1.5rem 0;
 }
 
