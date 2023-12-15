@@ -417,5 +417,85 @@ li:nth-child(8):hover {
 #line-break {
 	width: 100%;
 	height: 1px;
+	margin: 0.8rem 0 0.8rem 0;
 	background-color: #c4c4c4;
+}
+
+.supports-links {
+	width: 100%;
+	padding: 1rem 0 1rem 0;
+	height: fit-content;
+}
+
+h3 {
+	font-weight: 600;
+	font-size: 0.875rem;
+	line-height: 1.125rem;
+	margin: 0 0 1.125rem 0;
+}
+
+.support-links-grid a {
+	color: var(--font-color-bold);
+	text-decoration: none;
+}
+
+.support-links-grid a:hover {
+	text-decoration: underline;
+}
+
+.support-links-grid {
+	display: grid;
+	grid-auto-flow: row;
+	gap: 1rem;
+	font-weight: 400;
+	line-height: 1.25rem;
+	color: var(--font-color-standard);
+}
+
+.footer-end {
+	width: 100%;
+	padding: 1.5rem 0 1.5rem 0;
+}
+
+.privacy-copyright {
+	width: 100%;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	text-align: center;
+}
+
+.copyright {
+	border: none;
+	padding: 1rem;
+	background-color: inherit;
+}
+
+.privacy a {
+	color: var(--font-color-bold);
+	width: 100%;
+	white-space: nowrap;
+}
+
+.privacy a:hover {
+	text-decoration: underline;
+}
+
+.social-links {
+	display: flex;
+	word-spacing: normal;
+	gap: 1rem;
+	margin-bottom: 1rem;
+	font-weight: 600;
+	font-size: 0.875rem;
+	line-height: 1.125rem;
+	flex-flow: row nowrap;
+	justify-content: center;
+}
+
+.facebook,
+.twitter,
+.instagram,
+img {
+	width: 1rem;
 }
