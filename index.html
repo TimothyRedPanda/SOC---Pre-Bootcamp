@@ -1,1152 +1,1773 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SOC - Pre-BootCamp</title>
-    <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Airbnb-SOC</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="main.css" />
 </head>
 
-
 <body>
-    <nav class="top-bar">
-        <div class="search-bar-container">
-            <div class="search-filter">
-                <img src="Icons/Magnifying-Glass.png" alt="Magnifying Glass" class="magnifier">
-                <div class="search-text">
-                    <div class="Main-Search"><span>Anywhere</span></div>
-                    <div class="Secondary-Search"><span>Any week</span>
-                        <span> &#903 </span>
-                        <span>Add guests</span>
+    <div dir="1tr">
+        <div class="page-wrapper">
+            <div class="nav-container">
+                <div class="display-contents" style="display: contents">
+                    <div class="search-container">
+                        <div class="search-inner-grid">
+                            <div class="search-bar-holder">
+                                <button class="button-search">
+                                    <span class="magnifier-container">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" style="
+                          display: block;
+                          height: 1.25rem;
+                          width: 1.25rem;
+                          fill: currentcolor;
+                        " aria-hidden="true" role="presentation" focusable="false">
+                                            <path
+                                                d="M13 0a13 13 0 0 1 10.5 20.67l7.91 7.92-2.82 2.82-7.92-7.91A12.94 12.94 0 0 1 13 26a13 13 0 1 1 0-26zm0 4a9 9 0 1 0 0 18 9 9 0 0 0 0-18z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="search-text">
+                                        <div class="search-text1">Anywhere</div>
+                                        <div class="search-text-container2">
+                                            <span class="search-text2">Any week</span>
+                                            <span class="search-dot">•</span>
+                                            <span class="search-text2">Add guests</span>
+                                        </div>
+                                    </span>
+                                </button>
+                            </div>
+                            <div class="settings-icon">
+                                <button class="settings-button">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" style="
+                          display: block;
+                          fill: none;
+                          height: 1rem;
+                          width: 1rem;
+                          stroke: currentcolor;
+                          stroke-width: 4px;
+                          overflow: visible;
+                        " aria-hidden="true" role="presentation" focusable="false">
+                                            <path fill="none"
+                                                d="M7 16H3m26 0H15M29 6h-4m-8 0H3m26 20h-4M7 16a4 4 0 1 0 8 0 4 4 0 0 0-8 0zM17 6a4 4 0 1 0 8 0 4 4 0 0 0-8 0zm0 20a4 4 0 1 0 8 0 4 4 0 0 0-8 0zm0 0H3">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="display: contents;">
+                    <div class="icons-filter-places">
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/A-frames.png" class="icon-images" alt="A-frames">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">A-frames</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Adapted.png" class="icon-images" alt="Adapted">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Adapted</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Amazing pools.png" class="icon-images" alt="Amazing pools">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Amazing pools</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Amazing views.png" class="icon-images" alt="Amazing views">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Amazing views</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Artic.png" class="icon-images" alt="Arctic">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Arctic</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Barns.png" class="icon-images" alt="Barns">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Barns</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Beach.png" class="icon-images" alt="Beach">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Beach</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Beachfront.png" class="icon-images" alt="Beachfront">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Beachfront</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Bed & breakfasts.png" class="icon-images"
+                                        alt="Bed & breakfasts">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Bed & breakfasts</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Boats.png" class="icon-images" alt="Boats">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Boats</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Cabins.png" class="icon-images" alt="Cabins">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Cabins</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Camper vans.png" class="icon-images" alt="Camper vans">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Camper vans</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Camping.png" class="icon-images" alt="Camping">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Camping</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Casas particulares.png" class="icon-images"
+                                        alt="Casas particulares">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Casas particulares</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Castles.png" class="icon-images" alt="Castles">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Castles</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Caves.png" class="icon-images" alt="Caves">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Caves</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Chef's kitchens.png" class="icon-images"
+                                        alt="Chef's kitchens">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Chef's kitchens</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Containers.png" class="icon-images" alt="Containers">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Containers</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Countryside.png" class="icon-images" alt="Countryside">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Countryside</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Creative spaces.png" class="icon-images"
+                                        alt="Creative spaces">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Creative spaces</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Cycladic homes.png" class="icon-images"
+                                        alt="Cycladic homes">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Cycladic homes</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Dammusi.png" class="icon-images" alt="Dammusi">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Dammusi</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Desert.png" class="icon-images" alt="Desert">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Desert</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Design.png" class="icon-images" alt="Design">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Design</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Domes.png" class="icon-images" alt="Domes">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Domes</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Earth homes.png" class="icon-images" alt="Earth homes">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Earth homes</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Farms.png" class="icon-images" alt="Farms">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Farms</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Golfing.png" class="icon-images" alt="Golfing">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Golfing</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Grand pianos.png" class="icon-images" alt="Grand pianos">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Grand pianos</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Hanoks.png" class="icon-images" alt="Hanoks">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Hanoks</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Historical homes.png" class="icon-images"
+                                        alt="Historical homes">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Historical homes</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Houseboats.png" class="icon-images" alt="Houseboats">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Houseboats</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Iconic cities.png" class="icon-images" alt="Iconic cities">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Iconic cities</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Islands.png" class="icon-images" alt="Islands">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Islands</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Lake.png" class="icon-images" alt="Lake">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Lake</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Lakefront.png" class="icon-images" alt="Lakefront">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Lakefront</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Luxe.png" class="icon-images" alt="Luxe">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Luxe</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Mansions.png" class="icon-images" alt="Mansions">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Mansions</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Minsus.png" class="icon-images" alt="Minsus">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Minsus</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/National parks.png" class="icon-images"
+                                        alt="National parks">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">National parks</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/New.png" class="icon-images" alt="New">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">New</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Off-the-grid.png" class="icon-images" alt="Off-the-grid">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Off-the-grid</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/OMG.png" class="icon-images" alt="OMG">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">OMG</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Play.png" class="icon-images" alt="Play">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Play</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Riads.png" class="icon-images" alt="Riads">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Riads</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Rooms.png" class="icon-images" alt="Rooms">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Rooms</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Ryokans.png" class="icon-images" alt="Ryokans">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Ryokans</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Shepherd's huts.png" class="icon-images"
+                                        alt="Shepherd's huts">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Shepherd's huts</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Ski-inout.png" class="icon-images" alt="Ski-in/out">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Ski-in/out</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Skiing.png" class="icon-images" alt="Skiing">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Skiing</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Surfing.png" class="icon-images" alt="Surfing">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Surfing</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Tiny homes.png" class="icon-images" alt="Tiny homes">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Tiny homes</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Top of the world.png" class="icon-images"
+                                        alt="Top of the world">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Top of the world</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Towers.png" class="icon-images" alt="Towers">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Towers</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Treehouses.png" class="icon-images" alt="Treehouses">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Treehouses</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Trending.png" class="icon-images" alt="Trending">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Trending</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Tropical.png" class="icon-images" alt="Tropical">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Tropical</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Trulli.png" class="icon-images" alt="Trulli">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Trulli</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Vineyards.png" class="icon-images" alt="Vineyards">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Vineyards</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Windmills.png" class="icon-images" alt="Windmills">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Windmills</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
+                        <label class="icons-padding-font">
+                            <div class="icons">
+                                <span class="icons2">
+                                    <img src="Location_Icons/Yurts.png" class="icon-images" alt="Yurts">
+                                    <div class="icon-text-holder">
+                                        <span class="Icon-text">Yurts</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </label>
                     </div>
                 </div>
             </div>
-            <div class="filter-icons-contain">
-                <img src="Icons/settings-sliders.png" alt="Settings Icon" class="filters-icon">
+            <div id="container1">
+                <div class="image-container" Redberth, UK>
+                    <a href="https://www.airbnb.co.uk/rooms/20445002?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=804077055&search_mode=flex_destinations_search&check_in=2023-12-10&check_out=2023-12-15&source_impression_id=p3_1702219277_10aQ6OwUWn1LDW1t&previous_page_section_name=1000&federated_search_id=f578bc6c-d696-48c1-84a6-460c551d9f64"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/9da940a2-82d0-4efc-808e-381292ac5321.jpg?im_w=320"
+                            alt="Redberth, UK">
+                        <div class="img-text">
+                            <header class="country-name">Redberth, UK</header>
+                            <p class="description">Individual Host</p>
+                            <p class="date">10-15 Dec</p>
+                            <p class="rating">4.84</p>
+                            <p class="price"><span class="digits">£1065</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" Drimin, UK>
+                    <a href="https://www.airbnb.co.uk/rooms/19997279?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=635202582&search_mode=flex_destinations_search&check_in=2024-09-20&check_out=2024-09-25&source_impression_id=p3_1702219277_42LiHbszaLVqUD3A&previous_page_section_name=1000&federated_search_id=f578bc6c-d696-48c1-84a6-460c551d9f64"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/b7c9264d-73c9-45c3-882e-6e9577d63d68.jpg?im_w=320"
+                            alt="Drimin, UK">
+                        <div class="img-text">
+                            <header class="country-name">Drimin, UK</header>
+                            <p class="description">Individual Host</p>
+                            <p class="date">20-25 Sept</p>
+                            <p class="rating">4.94</p>
+                            <p class="price"><span class="digits">£994</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" Ponta Delgada, Portugal>
+                    <a href="https://www.airbnb.co.uk/rooms/5264493?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1331524666&search_mode=flex_destinations_search&check_in=2023-12-17&check_out=2023-12-22&source_impression_id=p3_1702219584_k3vHL%2Ffnr20Lxdbm&previous_page_section_name=1000&federated_search_id=f578bc6c-d696-48c1-84a6-460c551d9f64"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/miso/Hosting-5264493/original/10d2c21f-84c2-46c5-b20b-b51d1c2c971a.jpeg?im_w=720"
+                            alt="Ponta Delgada, Portugal">
+                        <div class="img-text">
+                            <header class="country-name">Ponta Delgada, Portugal</header>
+                            <p class="description">Professional Host</p>
+                            <p class="date">17-22 Dec</p>
+                            <p class="rating">4.93</p>
+                            <p class="price"><span class="digits">£622</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" Amsterdam, Netherlands>
+                    <a href="https://www.airbnb.co.uk/rooms/20952140?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=384183136&search_mode=flex_destinations_search&check_in=2023-12-17&check_out=2023-12-22&source_impression_id=p3_1702220753_p1XG09M7HF7XpmcX&previous_page_section_name=1000&federated_search_id=f578bc6c-d696-48c1-84a6-460c551d9f64"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/miso/Hosting-20952140/original/75f46f73-7ae3-46e9-b437-588e4c18b5ea.jpeg?im_w=720"
+                            alt="Amsterdam, Netherlands">
+                        <div class="img-text">
+                            <header class="country-name">Amsterdam, Netherlands</header>
+                            <p class="description">Professional Host</p>
+                            <p class="date">17-22 Dec</p>
+                            <!-- <p class="rating"> 4.92</p> -->
+                            <p class="price"><span class="digits">£3,774</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" Tervuren, Belgium>
+                    <a href="https://www.airbnb.co.uk/rooms/609161492165382333?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1387621117&search_mode=flex_destinations_search&check_in=2024-09-30&check_out=2024-10-05&source_impression_id=p3_1702220753_Gy77DTW6cmG1j18C&previous_page_section_name=1000&federated_search_id=f578bc6c-d696-48c1-84a6-460c551d9f64"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/miso/Hosting-609161492165382333/original/90d03745-e550-49c3-891e-ec5b6dc40a75.jpeg?im_w=720"
+                            alt="Tervuren, Belgium">
+                        <div class="img-text">
+                            <header class="country-name">Tervuren, Belgium</header>
+                            <p class="description">Individual Host</p>
+                            <p class="date">30 Sept-5 Oct</p>
+                            <p class="rating">4.85</p>
+                            <p class="price"><span class="digits">£741</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" Devon, UK>
+                    <a href="https://www.airbnb.co.uk/rooms/699095541647431947?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1475300947&search_mode=flex_destinations_search&check_in=2024-01-21&check_out=2024-01-26&source_impression_id=p3_1702221738_8MhARGZLCcqmYDuC&previous_page_section_name=1000"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-699095541647431947/original/2c2221c3-d014-4b4f-a850-29ee47620304.jpeg?im_w=720"
+                            alt="Devon, UK">
+                        <div class="img-text">
+                            <header class="country-name">Devon, UK</header>
+                            <p class="description">Professional Host</p>
+                            <p class="date">21-26 Jan</p>
+                            <!-- <p class="rating">4.92</p> -->
+                            <p class="price"><span class="digits">£3,720</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" Sutton, UK>
+                    <a href="https://www.airbnb.co.uk/rooms/35134577?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=821603338&search_mode=flex_destinations_search&check_in=2024-03-13&check_out=2024-03-18&source_impression_id=p3_1702221738_ghbhLzYLx%2BPqQsmR&previous_page_section_name=1000"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/2e5550b5-628f-46a6-ae3b-93495384c15e.jpg?im_w=720"
+                            alt="Sutton, UK">
+                        <div class="img-text">
+                            <header class="country-name">Sutton, UK</header>
+                            <p class="description">Individual Host</p>
+                            <p class="date">13-18 Mar</p>
+                            <p class="rating">4.92</p>
+                            <p class="price"><span class="digits">£959</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" Pembroke, UK>
+                    <a href="https://www.airbnb.co.uk/rooms/42043514?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1077549152&search_mode=flex_destinations_search&check_in=2024-03-03&check_out=2024-03-08&source_impression_id=p3_1702221738_KAyNGQlicIGCc6Du&previous_page_section_name=1000"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/c579efd0-3a7a-4132-8bbb-cf7eeadc9806.jpg?im_w=720"
+                            alt="Ceredigion, UK">
+                        <div class="img-text">
+                            <header class="country-name">Pembroke, UK</header>
+                            <p class="description">Individual Host</p>
+                            <p class="date">3-8 Mar</p>
+                            <p class="rating">4.96</p>
+                            <p class="price"><span class="digits">£819</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" Worstead, UK>
+                    <a href="https://www.airbnb.co.uk/rooms/48974193?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1384597021&search_mode=flex_destinations_search&check_in=2024-01-05&check_out=2024-01-10&source_impression_id=p3_1702221738_28FKbR41ZEMsP5XN&previous_page_section_name=1000"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/miso/Hosting-48974193/original/dfc94d55-d670-42db-bdb8-ffda4fb2996b.jpeg?im_w=720"
+                            alt="Worstead, UK">
+                        <div class="img-text">
+                            <header class="country-name">Worstead, UK</header>
+                            <p class="description">Professional Host</p>
+                            <p class="date">5-10 Jan</p>
+                            <p class="rating">4.84</p>
+                            <p class="price"><span class="digits">£732</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" Canterbury, UK>
+                    <a href="https://www.airbnb.co.uk/rooms/36326963?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=797638057&search_mode=flex_destinations_search&check_in=2023-12-18&check_out=2023-12-23&source_impression_id=p3_1702221738_0ARcQ1fYSeXpcPK7&previous_page_section_name=1000"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/2ce2f829-7965-479a-af98-c5a84824ce06.jpg?im_w=720"
+                            alt="Canterbury, UK">
+                        <div class="img-text">
+                            <header class="country-name">Canterbury, UK</header>
+                            <p class="description">Professional Host</p>
+                            <p class="date">18-23 Dec</p>
+                            <p class="rating">4.98</p>
+                            <p class="price"><span class="digits">£1,871</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" Pembrokeshire, UK>
+                    <a href="https://www.airbnb.co.uk/rooms/47824542?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1150931101&search_mode=flex_destinations_search&check_in=2024-01-14&check_out=2024-01-19&source_impression_id=p3_1702221738_qT82d0Y5oh3%2BfSO6&previous_page_section_name=1000"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/25e609b3-332f-4083-b886-b801b8d1a755.jpg?im_w=720"
+                            alt="Pembrokeshire, UK">
+                        <div class="img-text">
+                            <header class="country-name">Pembrokeshire, UK</header>
+                            <p class="description">Individual Host</p>
+                            <p class="date">14-19 Jan</p>
+                            <p class="rating">4.99</p>
+                            <p class="price"><span class="digits">£848</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" The Haven, Billingshurst, UK>
+                    <a href="https://www.airbnb.co.uk/rooms/13126329?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1378624490&search_mode=flex_destinations_search&check_in=2024-01-07&check_out=2024-01-12&source_impression_id=p3_1702221738_hKEC5MLqQP9f8FZY&previous_page_section_name=1000"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/miso/Hosting-13126329/original/012c2934-0265-48b2-af94-a3b115eddba1.jpeg?im_w=720"
+                            alt="The Haven, Billingshurst, UK">
+                        <div class="img-text">
+                            <header class="country-name">The Haven, Billingshurst, UK</header>
+                            <p class="description">Individual Host</p>
+                            <p class="date">7-12 Jan</p>
+                            <p class="rating">4.90</p>
+                            <p class="price"><span class="digits">£819</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" Preston, UK>
+                    <a href="https://www.airbnb.co.uk/rooms/27567247?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1375025336&search_mode=flex_destinations_search&check_in=2023-12-11&check_out=2023-12-16&source_impression_id=p3_1702221738_vHoU5Qa2k3oyEmfF&previous_page_section_name=1000"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/miso/Hosting-27567247/original/7ef08899-92b2-44b6-bd8b-ba9a1b13e45e.jpeg?im_w=720"
+                            alt="Preston, UK">
+                        <div class="img-text">
+                            <header class="country-name">Preston, UK</header>
+                            <p class="description">Professional Host</p>
+                            <p class="date">11-16 Dec</p>
+                            <p class="rating">4.86</p>
+                            <p class="price"><span class="digits">£778</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" Hatherton, UK>
+                    <a href="https://www.airbnb.co.uk/rooms/14124160?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1480541434&search_mode=flex_destinations_search&check_in=2023-12-11&check_out=2023-12-16&source_impression_id=p3_1702221738_StOXDk0252R1IQk8&previous_page_section_name=1000"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/2215aa5c-f8b4-4295-9fa2-e33b693dbf8e.jpg?im_w=720"
+                            alt="Hatherton, UK">
+                        <div class="img-text">
+                            <header class="country-name">Hatherton, UK</header>
+                            <p class="description">Individual Host</p>
+                            <p class="date">11-16 Dec</p>
+                            <p class="rating">4.95</p>
+                            <p class="price"><span class="digits">£351</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" Lincolnshire, UK>
+                    <a href="https://www.airbnb.co.uk/rooms/34928149?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=760375860&search_mode=flex_destinations_search&check_in=2024-01-10&check_out=2024-01-15&source_impression_id=p3_1702221738_MTfqV6HszvXUUFyD&previous_page_section_name=1000"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/4d36806c-a68e-4d98-98d0-722fa478ed51.jpg?im_w=720"
+                            alt="Lincolnshire, UK">
+                        <div class="img-text">
+                            <header class="country-name">Lincolnshire, UK</header>
+                            <p class="description">Professional Host</p>
+                            <p class="date">10-15 Jan</p>
+                            <p class="rating">4.89</p>
+                            <p class="price"><span class="digits">£403</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" Walterstone, UK>
+                    <a href="https://www.airbnb.co.uk/rooms/608629036284538849?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1383423602&search_mode=flex_destinations_search&check_in=2024-04-29&check_out=2024-05-06&source_impression_id=p3_1702221738_tKEjxo%2BHgiqQAtn7&previous_page_section_name=1000"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/miso/Hosting-608629036284538849/original/68b2f914-7365-4482-9eb5-23089f8f3800.jpeg?im_w=720"
+                            alt="Walterstone, UK">
+                        <div class="img-text">
+                            <header class="country-name">Walterstone, UK</header>
+                            <p class="description">Individual Host</p>
+                            <p class="date">29 Apr-6 May</p>
+                            <p class="rating">4.97</p>
+                            <p class="price"><span class="digits">£1,240</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" Cheshire East, UK>
+                    <a href="https://www.airbnb.co.uk/rooms/33330821?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1060971290&search_mode=flex_destinations_search&check_in=2024-04-04&check_out=2024-04-09&source_impression_id=p3_1702221738_5RISKHC8dP9YL9pZ&previous_page_section_name=1000"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/1db57275-c036-4dbf-b896-32ee22253e48.jpg?im_w=720"
+                            alt="Cheshire East, UK">
+                        <div class="img-text">
+                            <header class="country-name">Cheshire East, UK</header>
+                            <p class="description">Individual Host</p>
+                            <p class="date">4-9 Apr</p>
+                            <p class="rating">4.98</p>
+                            <p class="price"><span class="digits">£562</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" Somerset, UK>
+                    <a href="https://www.airbnb.co.uk/rooms/42784271?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1037467978&search_mode=flex_destinations_search&check_in=2023-12-16&check_out=2023-12-21&source_impression_id=p3_1702221738_3EcbffMpTGMNCwj6&previous_page_section_name=1000"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/7cbb637b-23b9-47ad-a3c3-3d886ab2cc27.jpg?im_w=720"
+                            alt="Somerset, UK">
+                        <div class="img-text">
+                            <header class="country-name">Somerset, UK</header>
+                            <p class="description">Professional Host</p>
+                            <p class="date">16-21 Dec</p>
+                            <p class="rating">4.85</p>
+                            <p class="price"><span class="digits">£824</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" Benenden, UK>
+                    <a href="https://www.airbnb.co.uk/rooms/1237965?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=640282100&search_mode=flex_destinations_search&check_in=2024-01-21&check_out=2024-01-26&source_impression_id=p3_1702221738_f1bgOON3WAYbY9BX&previous_page_section_name=1000"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/22534107/2deed15c_original.jpg?im_w=720"
+                            alt="Benenden, UK">
+                        <div class="img-text">
+                            <header class="country-name">Benenden, UK</header>
+                            <p class="description">Professional Host</p>
+                            <p class="date">21-26 Jan</p>
+                            <p class="rating">4.99</p>
+                            <p class="price"><span class="digits">£1,228</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" Martlesham, UK>
+                    <a href="https://www.airbnb.co.uk/rooms/37479138?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1042583316&search_mode=flex_destinations_search&check_in=2023-12-11&check_out=2023-12-16&source_impression_id=p3_1702221738_NTJ%2B2Creyi3TMTse&previous_page_section_name=1000"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/76cdbfc7-5609-4239-8ecc-1a4deda6b092.jpg?im_w=720"
+                            alt="Martlesham, UK">
+                        <div class="img-text">
+                            <header class="country-name">Martlesham, UK</header>
+                            <p class="description">Individual Host</p>
+                            <p class="date">11-16 Dec</p>
+                            <p class="rating">4.89</p>
+                            <p class="price"><span class="digits">£776</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" Monmouth, UK>
+                    <a href="https://www.airbnb.co.uk/rooms/32102600?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1095591114&search_mode=flex_destinations_search&check_in=2023-12-10&check_out=2023-12-15&source_impression_id=p3_1702221738_Q8z6lbX1AxM%2B5gQc&previous_page_section_name=1000"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/a09e07bc-ed2f-4a91-987f-f4fe4695b9f2.jpg?im_w=720"
+                            alt="Monmouth, UK">
+                        <div class="img-text">
+                            <header class="country-name">Monmouth, UK</header>
+                            <p class="description">Individual Host</p>
+                            <p class="date">10-15 Dec</p>
+                            <p class="rating">4.87</p>
+                            <p class="price"><span class="digits">£751</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" Nieuwdorp, Netherlands>
+                    <a href="https://www.airbnb.co.uk/rooms/44551661?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1048244940&search_mode=flex_destinations_search&check_in=2024-02-26&check_out=2024-03-02&source_impression_id=p3_1702221738_MR3jk9aPVtDgBWiB&previous_page_section_name=1000"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/82b035c8-e32d-4802-83ab-33d723cae937.jpg?im_w=720"
+                            alt="Nieuwdorp, Netherlands">
+                        <div class="img-text">
+                            <header class="country-name">Nieuwdorp, Netherlands</header>
+                            <p class="description">Professional Host</p>
+                            <p class="date">26 Feb-2 Mar</p>
+                            <p class="rating">4.92</p>
+                            <p class="price"><span class="digits">£727</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" Ropley, UK>
+                    <a href="https://www.airbnb.co.uk/rooms/37107691?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1026873347&search_mode=flex_destinations_search&check_in=2023-12-12&check_out=2023-12-17&source_impression_id=p3_1702221738_SbhUZToddtjzyRFZ&previous_page_section_name=1000"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/dbbaa040-db25-4b17-9c24-4db6c32da39a.jpg?im_w=720"
+                            alt="Ropley, UK">
+                        <div class="img-text">
+                            <header class="country-name">Ropley, UK</header>
+                            <p class="description">Individual Host</p>
+                            <p class="date">12-17 Dec</p>
+                            <p class="rating">4.88</p>
+                            <p class="price"><span class="digits">£1,099</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" Churchstanton, UK>
+                    <a href="https://www.airbnb.co.uk/rooms/32663724?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1398926784&search_mode=flex_destinations_search&check_in=2023-12-11&check_out=2023-12-16&source_impression_id=p3_1702221738_TMTSkh4ruD7uPy9u&previous_page_section_name=1000"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/miso/Hosting-32663724/original/a3ffa114-1f3a-43df-8829-2622cf9d6a4a.jpeg?im_w=720"
+                            alt="Churchstanton, UK">
+                        <div class="img-text">
+                            <header class="country-name">Churchstanton, UK</header>
+                            <p class="description">Individual Host</p>
+                            <p class="date">11-16 Dec</p>
+                            <p class="rating">4.99</p>
+                            <p class="price"><span class="digits">£988</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" Machynlleth, UK>
+                    <a href="https://www.airbnb.co.uk/rooms/6347639?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=124986703&search_mode=flex_destinations_search&check_in=2023-12-11&check_out=2023-12-16&source_impression_id=p3_1702221738_iZSTL1SAfXxkixH7&previous_page_section_name=1000"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/db95f3fc-facd-42ee-9726-7b2b7a6c8a24.jpg?im_w=720"
+                            alt="Machynlleth, UK">
+                        <div class="img-text">
+                            <header class="country-name">Machynlleth, UK</header>
+                            <p class="description">Individual Host</p>
+                            <p class="date">11-16 Dec</p>
+                            <p class="rating">4.93</p>
+                            <p class="price"><span class="digits">£292</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" Pennington, UK>
+                    <a href="https://www.airbnb.co.uk/rooms/46428856?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1109827312&search_mode=flex_destinations_search&check_in=2023-12-10&check_out=2023-12-15&source_impression_id=p3_1702221738_TnVk9Yc6J0Y3y79%2F&previous_page_section_name=1000"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/af175b08-e5e0-4880-b87c-d40c84e9833d.jpg?im_w=720"
+                            alt="Pennington, UK">
+                        <div class="img-text">
+                            <header class="country-name">Pennington, UK</header>
+                            <p class="description">Individual Host</p>
+                            <p class="date">10-15 Dec</p>
+                            <p class="rating">4.96</p>
+                            <p class="price"><span class="digits">£877</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" East Meon, UK>
+                    <a href="https://www.airbnb.co.uk/rooms/12583720?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=990997529&search_mode=flex_destinations_search&check_in=2023-12-20&check_out=2023-12-25&source_impression_id=p3_1702221738_4Gea0fNW6TIC4D%2BW&previous_page_section_name=1000"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/6f362e2c-f084-462f-8434-5d3224498bfb.jpg?im_w=720"
+                            alt="East Meon, UK">
+                        <div class="img-text">
+                            <header class="country-name">East Meon, UK</header>
+                            <p class="description">Individual Host</p>
+                            <p class="date">20-25 Dec</p>
+                            <p class="rating">4.88</p>
+                            <p class="price"><span class="digits">£760</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" Bergen aan Zee, Netherlands>
+                    <a href="https://www.airbnb.co.uk/rooms/50072163?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1636758918&search_mode=flex_destinations_search&check_in=2024-01-05&check_out=2024-01-12&source_impression_id=p3_1702221738_apxcZ3YtWKCbluXF&previous_page_section_name=1000"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-50072163/original/4ed907dc-55d7-4ac7-a1f1-a8218c09b317.jpeg?im_w=720"
+                            alt="Bergen aan Zee, Netherlands">
+                        <div class="img-text">
+                            <header class="country-name">Bergen aan Zee, Netherlands</header>
+                            <p class="description">Professional Host</p>
+                            <p class="date">5-12 Jan</p>
+                            <!-- <p class="rating">4.92</p> -->
+                            <p class="price"><span class="digits">£4,075</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" Amsterdam, Netherlands>
+                    <a href="https://www.airbnb.co.uk/rooms/897037429506065313?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1658150043&search_mode=flex_destinations_search&check_in=2023-12-17&check_out=2023-12-22&source_impression_id=p3_1702221738_2IV81eSu0%2BhCYBpN&previous_page_section_name=1000"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/miso/Hosting-897037429506065313/original/787f9aed-e960-4885-92e5-59ab77572c82.jpeg?im_w=720"
+                            alt="Amsterdam, Netherlands">
+                        <div class="img-text">
+                            <header class="country-name">Amsterdam, Netherlands</header>
+                            <p class="description">Professional Host</p>
+                            <p class="date">17-22 Dec</p>
+                            <!-- <p class="rating">4.92</p> -->
+                            <p class="price"><span class="digits">£141,511</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" Llan-y-pwll, UK>
+                    <a href="https://www.airbnb.co.uk/rooms/25562597?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=509042810&search_mode=flex_destinations_search&check_in=2023-12-10&check_out=2023-12-15&source_impression_id=p3_1702221738_KjO00Iz1rQIDXP%2Fr&previous_page_section_name=1000"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/1276d996-706c-41c9-bc47-4a6b706fa482.jpg?im_w=720"
+                            alt="Llan-y-pwll, UK">
+                        <div class="img-text">
+                            <header class="country-name">Llan-y-pwll, UK</header>
+                            <p class="description">Individual Host</p>
+                            <p class="date">10-15 Dec</p>
+                            <p class="rating">4.83</p>
+                            <p class="price"><span class="digits">£819</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" Zevenhuizen, Netherlands>
+                    <a href="https://www.airbnb.co.uk/rooms/43481723?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1006768299&search_mode=flex_destinations_search&check_in=2023-12-16&check_out=2023-12-21&source_impression_id=p3_1702221738_slz5AjHTwgNgPzx4&previous_page_section_name=1000"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/b2a26fc2-ac98-498c-b646-7fe850199498.jpg?im_w=720"
+                            alt="Zevenhuizen, Netherlands">
+                        <div class="img-text">
+                            <header class="country-name">Zevenhuizen, Netherlands</header>
+                            <p class="description">Individual Host</p>
+                            <p class="date">16-21 Dec</p>
+                            <p class="rating">4.94</p>
+                            <p class="price"><span class="digits">£848</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" West Sussex, UK>
+                    <a href="https://www.airbnb.co.uk/rooms/35932590?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=811262897&search_mode=flex_destinations_search&check_in=2023-12-18&check_out=2023-12-23&source_impression_id=p3_1702221738_JVs911ahDfjHGIEv&previous_page_section_name=1000"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/bdcf791f-6be2-4ff6-929b-39e5d3d6e59f.jpg?im_w=720"
+                            alt="West Sussex, UK">
+                        <div class="img-text">
+                            <header class="country-name">West Sussex, UK</header>
+                            <p class="description">Professional Host</p>
+                            <p class="date">18-23 Dec</p>
+                            <p class="rating">4.67</p>
+                            <p class="price"><span class="digits">£838</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" Cockfield, UK>
+                    <a href="https://www.airbnb.co.uk/rooms/17712715?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=501366143&search_mode=flex_destinations_search&check_in=2024-04-21&check_out=2024-04-26&source_impression_id=p3_1702221738_Bzcn%2FvVbKMsnfBgM&previous_page_section_name=1000"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/0dfd154b-cbc5-4a41-bed7-59779f150dd6.jpg?im_w=720"
+                            alt="Cockfield, UK">
+                        <div class="img-text">
+                            <header class="country-name">Cockfield, UK</header>
+                            <p class="description">Professional Host</p>
+                            <p class="date">21-26 Apr</p>
+                            <!-- <p class="rating">4.92</p> -->
+                            <p class="price"><span class="digits">£2,888</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" Winchester, UK>
+                    <a href="https://www.airbnb.co.uk/rooms/5165923?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=220775213&search_mode=flex_destinations_search&check_in=2024-01-08&check_out=2024-01-13&source_impression_id=p3_1702221738_HEYs%2FKP8Pc%2BQo15t&previous_page_section_name=1000"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/856b83fc-f4c8-4ae3-8ab0-4e81fcd9727a.jpg?im_w=720"
+                            alt="Winchester, UK">
+                        <div class="img-text">
+                            <header class="country-name">Winchester, UK</header>
+                            <p class="description">Individual Host</p>
+                            <p class="date">8-13 Jan</p>
+                            <p class="rating">4.90</p>
+                            <p class="price"><span class="digits">£1,169</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" Amsterdam, Netherlands>
+                    <a href="https://www.airbnb.co.uk/rooms/20952129?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=384183236&search_mode=flex_destinations_search&check_in=2023-12-11&check_out=2023-12-16&source_impression_id=p3_1702221738_Neuot3EnpnASDRrT&previous_page_section_name=1000"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/5d741bbe-61bf-4168-8ecb-3e0b063d2e1e.jpg?im_w=720"
+                            alt="Sutton, UK">
+                        <div class="img-text">
+                            <header class="country-name">Amsterdam, Netherlands</header>
+                            <p class="description">Professional Host</p>
+                            <p class="date">11-16 Dec</p>
+                            <!-- <p class="rating">4.92</p> -->
+                            <p class="price"><span class="digits">£3,604</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" Carmarthenshire, UK>
+                    <a href="https://www.airbnb.co.uk/rooms/12279719?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=141213556&search_mode=flex_destinations_search&check_in=2023-12-11&check_out=2023-12-16&source_impression_id=p3_1702221738_oob40GxNM34I%2B0ZB&previous_page_section_name=1000"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/6aef5497-da10-4647-88e4-a13940589a71.jpg?im_w=720"
+                            alt="Carmarthenshire, UK">
+                        <div class="img-text">
+                            <header class="country-name">Carmarthenshire, UK</header>
+                            <p class="description">Individual Host</p>
+                            <p class="date">11-16 Dec</p>
+                            <p class="rating">4.98</p>
+                            <p class="price"><span class="digits">£1,052</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" Amsterdam, Netherlands>
+                    <a href="https://www.airbnb.co.uk/rooms/20952152?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=384183236&search_mode=flex_destinations_search&check_in=2023-12-11&check_out=2023-12-16&source_impression_id=p3_1702221738_BkpXdWbD1XUUHLaf&previous_page_section_name=1000"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/miso/Hosting-20952152/original/0c9c6508-aac0-4ff7-83b9-ea2c5fcfe4c1.jpeg?im_w=720"
+                            alt="Amsterdam, Netherlands">
+                        <div class="img-text">
+                            <header class="country-name">Amsterdam, Netherlands</header>
+                            <p class="description">Professional Host</p>
+                            <p class="date">11-16 Dec</p>
+                            <!-- <p class="rating">4.92</p> -->
+                            <p class="price"><span class="digits">£3,604</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" Ramsdean, UK>
+                    <a href="https://www.airbnb.co.uk/rooms/51879539?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1244002784&search_mode=flex_destinations_search&check_in=2023-12-13&check_out=2023-12-18&source_impression_id=p3_1702221738_DYdeH%2BKoGsi%2B1SyK&previous_page_section_name=1000"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-51879539/original/809bcf7e-acdc-43dd-8144-356d4312dcf5.jpeg?im_w=720"
+                            alt="Ramsdean, UK">
+                        <div class="img-text">
+                            <header class="country-name">Ramsdean, UK</header>
+                            <p class="description">Professional Host</p>
+                            <p class="date">13-18 Dec</p>
+                            <p class="rating">4.97</p>
+                            <p class="price"><span class="digits">£704</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" Colgate, UK>
+                    <a href="https://www.airbnb.co.uk/rooms/43232620?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1050425806&search_mode=flex_destinations_search&check_in=2024-04-01&check_out=2024-04-06&source_impression_id=p3_1702221738_wDbdZ83P%2B%2FxV4ttv&previous_page_section_name=1000"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/73dfe7f7-3b62-4038-9964-03781ef16aac.jpg?im_w=720"
+                            alt="Colgate, UK">
+                        <div class="img-text">
+                            <header class="country-name">Worstead, UK</header>
+                            <p class="description">Individual Host</p>
+                            <p class="date">1-6 April</p>
+                            <p class="rating">4.92</p>
+                            <p class="price"><span class="digits">£707</span> total</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container" Medstead, UK>
+                    <a href="https://www.airbnb.co.uk/rooms/10149264?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1033198810&search_mode=flex_destinations_search&check_in=2024-01-21&check_out=2024-01-26&source_impression_id=p3_1702221738_bfGhYoA%2BwJACL9gX&previous_page_section_name=1000"
+                        target="_blank">
+                        <svg class="Heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display: block; fill: rgba(0, 0, 0, 0.5); height: 1.68rem; width: 1.68rem; stroke: #fff; stroke-width: 2px; overflow: visible;"
+                            aria-hidden="true" role="presentation" focusable="false">
+                            <path
+                                d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z">
+                            </path>
+                        </svg>
+                        <img class="location-image"
+                            src="https://a0.muscache.com/im/pictures/369f9a41-ed52-4938-97d6-5117781074fb.jpg?im_w=720"
+                            alt="Medstead, UK">
+                        <div class="img-text">
+                            <header class="country-name">Medstead, UK</header>
+                            <p class="description">Individual Host</p>
+                            <p class="date">21-26 Jan</p>
+                            <p class="rating">4.95</p>
+                            <p class="price"><span class="digits">£1,051</span> total</p>
+                        </div>
+                    </a>
+                </div>
             </div>
-        </div>
+            <div class="Footer-Button">
+                <header class="button-title">Continue exploring Airbnb homes</header>
+                <div class="show-more-container">
+                    <a href="https://www.airbnb.co.uk" target="_blank">
+                        <div class="show-more">Show more</div>
+                    </a>
+                </div>
+            </div>
+            <footer>
+                <div class="footer-container">
+                    <h2>Inspiration for future getaways</h2>
+                    <div class="Inspiration-Headings"></div>
+                    <div class="inspiration">
+                        <ul>
+                            <span class="titles-span">Popular</span>
+                            <span class="titles-span">Historic</span>
+                            <span class="titles-span">Coastal</span>
+                            <span class="titles-span">Islands</span>
+                            <span class="titles-span">Lakes</span>
+                            <span class="titles-span">Unique Stays</span>
+                            <span class="titles-span">Categories</span>
+                            <span class="titles-span">Things to do</span>
+                        </ul>
+                    </div>
+                    <div id="line-break"></div>
+                    <div class="future-getaways-grid">
+                        <ul class="inspiration-order">
+                            <li class="Inspiration-Link">
+                                <a class="getaways-links" href="https://www.airbnb.co.uk/aberfeldy-united-kingdom/stays"
+                                    target="_blank">
+                                    <span class="Inspire-place-name">Aberfeldy</span>
+                                    <span>Holiday Rentals</span>
+                                </a>
+                            </li>
+                            <li class="Inspiration-Link">
+                                <a class="getaways-links"
+                                    href="https://www.airbnb.co.uk/amsterdam-netherlands/stays/bungalows"
+                                    target="_blank">
+                                    <span class="Inspire-place-name">Amsterdam</span>
+                                    <span>Bungalow rentals</span>
+                                </a>
+                            </li>
+                            <li class="Inspiration-Link">
+                                <a class="getaways-links" href="https://www.airbnb.co.uk/athens-greece/stays/villas"
+                                    target="_blank">
+                                    <span class="Inspire-place-name">Athens</span>
+                                    <span>Villa rentals</span>
+                                </a>
+                            </li>
+                            <li class="Inspiration-Link">
+                                <a class="getaways-links" href="https://www.airbnb.co.uk/aviemore-united-kingdom/stays"
+                                    target="_blank">
+                                    <span class="Inspire-place-name">Aviemore</span>
+                                    <span>Holiday rentals</span>
+                                </a>
+                            </li>
+                            <li class="Inspiration-Link">
+                                <a class="getaways-links" href="https://www.airbnb.co.uk/bakewell-united-kingdom/stays"
+                                    target="_blank">
+                                    <span class="Inspire-place-name">Bakewell</span>
+                                    <span>Holiday rentals</span>
+                                </a>
+                            </li>
+                            <li class="Inspiration-Link">
+                                <a class="getaways-links" href="https://www.airbnb.co.uk/barcelona-spain/stays"
+                                    target="_blank">
+                                    <span class="Inspire-place-name">Barcelona</span>
+                                    <span>Flat rentals</span>
+                                </a>
+                            </li>
+                            <li class="Inspiration-Link">
+                                <a class="getaways-links"
+                                    href="https://www.airbnb.co.uk/bath-united-kingdom/stays/cabins" target="_blank">
+                                    <span class="Inspire-place-name">Bath</span>
+                                    <span>Cabin rentals</span>
+                                </a>
+                            </li>
+                            <li class="Inspiration-Link">
 
-        <div class="icon-container">
-            <div class="ind-icons">
-                <img src="Icons/A-frames.jpg" alt="A-Frames" class="icons">
-                <span class="Text-Icons">A-Frames</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Adapted.jpg" alt="Adapted" class="icons">
-                <span class="Text-Icons">Adapted</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Amazing pools.jpg" alt="Amazing pools" class="icons">
-                <span class="Text-Icons">Amazing Pools</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Amazing views.jpg" alt="Amazing views" class="icons">
-                <span class="Text-Icons">Amazing Views</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Arctic.jpg" alt="Arctic" class="icons">
-                <span class="Text-Icons">Arctic</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Barnes.jpg" alt="Barnes" class="icons">
-                <span class="Text-Icons">Barnes</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Beach.jpg" alt="Beach" class="icons">
-                <span class="Text-Icons">Beach</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Beachfront.jpg" alt="Beachfront" class="icons">
-                <span class="Text-Icons">Beachfront</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Bed & breakfasts.jpg" alt="Bed & breakfasts" class="icons">
-                <span class="Text-Icons">Bed & breakfasts</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Boats.jpg" alt="Boats" class="icons">
-                <span class="Text-Icons">Boats</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Cabins.jpg" alt="Cabins" class="icons">
-                <span class="Text-Icons">Cabins</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Camper vans.jpg" alt="Camper vans" class="icons">
-                <span class="Text-Icons">Camper vans</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Camping.jpg" alt="Camping" class="icons">
-                <span class="Text-Icons">Camping</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Casas particulares.jpg" alt="Casas particulares" class="icons">
-                <span class="Text-Icons">Casas particulares</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Castles.jpg" alt="Castles" class="icons">
-                <span class="Text-Icons">Castles</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Caves.jpg" alt="Caves" class="icons">
-                <span class="Text-Icons">Caves</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Chef's kitchen.jpg" alt="Chef's kitchen" class="icons">
-                <span class="Text-Icons">Chef's Kitchen</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Containers.jpg" alt="Containers" class="icons">
-                <span class="Text-Icons">Containers</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Countryside.jpg" alt="Countryside" class="icons">
-                <span class="Text-Icons">Countryside</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Creative spaces.jpg" alt="Creative Spaces" class="icons">
-                <span class="Text-Icons">Creative spaces</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Cycladic homes.jpg" alt="Cycladic Homes" class="icons">
-                <span class="Text-Icons">Cycladic homes</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Dammusi.jpg" alt="Dammusi" class="icons">
-                <span class="Text-Icons">Dammusi</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Desert.jpg" alt="Desert" class="icons">
-                <span class="Text-Icons">Desert</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Design.jpg" alt="Design" class="icons">
-                <span class="Text-Icons">Design</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Domes.jpg" alt="Domes" class="icons">
-                <span class="Text-Icons">Domes</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Earth homes.jpg" alt="Earth Homes" class="icons">
-                <span class="Text-Icons">Earth homes</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Farms.jpg" alt="Farms" class="icons">
-                <span class="Text-Icons">Farms</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Golfing.jpg" alt="Golfing" class="icons">
-                <span class="Text-Icons">Golfing</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Grand pianos.jpg" alt="Grand Pianos" class="icons">
-                <span class="Text-Icons">Grand pianos</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Hanoks.jpg" alt="Hanoks" class="icons">
-                <span class="Text-Icons">Hanoks</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Historic homes.jpg" alt="Historic Homes" class="icons">
-                <span class="Text-Icons">Historic homes</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Houseboats.jpg" alt="Houseboats" class="icons">
-                <span class="Text-Icons">Houseboats</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Iconic cities.jpg" alt="Iconic cities" class="icons">
-                <span class="Text-Icons">Iconic cities</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Islands.jpg" alt="Islands" class="icons">
-                <span class="Text-Icons">Islands</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Lake.jpg" alt="Lake" class="icons">
-                <span class="Text-Icons">Lake</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Lakefront.jpg" alt="Lakefront" class="icons">
-                <span class="Text-Icons">Lakefront</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Luxe.jpg" alt="Luxe" class="icons">
-                <span class="Text-Icons">Luxe</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Mansions.jpg" alt="Mansions" class="icons">
-                <span class="Text-Icons">Mansions</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Minsus.jpg" alt="Minsus" class="icons">
-                <span class="Text-Icons">Minsus</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/National Parks.jpg" alt="National parks" class="icons">
-                <span class="Text-Icons">National parks</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/New.jpg" alt="New" class="icons">
-                <span class="Text-Icons">New</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Off-the-grid.jpg" alt="Off-the-grid" class="icons">
-                <span class="Text-Icons">Off-the-grid</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/OMG.jpg" alt="OMG" class="icons">
-                <span class="Text-Icons">OMG</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Play.jpg" alt="Play" class="icons">
-                <span class="Text-Icons">Play</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Riads.jpg" alt="Riads" class="icons">
-                <span class="Text-Icons">Riads</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Rooms.jpg" alt="Rooms" class="icons">
-                <span class="Text-Icons">Rooms</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Ryokans.jpg" alt="Ryokans" class="icons">
-                <span class="Text-Icons">Ryokans</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Shepherd's huts.jpg" alt="Shepherd's huts" class="icons">
-                <span class="Text-Icons">Shepherd's huts</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Ski-in.jpg" alt="Ski-in" class="icons">
-                <span class="Text-Icons">Ski-in</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Skiing.jpg" alt="Skiing" class="icons">
-                <span class="Text-Icons">Skiing</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Surfing.jpg" alt="Surfing" class="icons">
-                <span class="Text-Icons">Surfing</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Tiny homes.jpg" alt="Tiny homes" class="icons">
-                <span class="Text-Icons">Tiny homes</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Top of the World.jpg" alt="Top of the world" class="icons">
-                <span class="Text-Icons">Top of the World</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Towers.jpg" alt="Towers" class="icons">
-                <span class="Text-Icons">Towers</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Treehouses.jpg" alt="Treehouses" class="icons">
-                <span class="Text-Icons">Treehouses</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Trending.jpg" alt="Trending" class="icons">
-                <span class="Text-Icons">Trending</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Tropical.jpg" alt="Tropical" class="icons">
-                <span class="Text-Icons">Tropical</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Trulli.jpg" alt="Trulli" class="icons">
-                <span class="Text-Icons">Trulli</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Vineyards.jpg" alt="Vineyards" class="icons">
-                <span class="Text-Icons">Vineyards</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Windmills.jpg" alt="Windmills" class="icons">
-                <span class="Text-Icons">Windmills</span>
-            </div>
-            <div class="ind-icons">
-                <img src="Icons/Yurts.jpg" alt="Yurts" class="icons">
-                <span class="Text-Icons">Yurts</span>
-            </div>
-        </div>
-    </nav>
-    <div id="container1">
-        <div class="image-container" Redberth, UK>
-            <a href="https://www.airbnb.co.uk/rooms/20445002?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=804077055&search_mode=flex_destinations_search&check_in=2023-12-10&check_out=2023-12-15&source_impression_id=p3_1702219277_10aQ6OwUWn1LDW1t&previous_page_section_name=1000&federated_search_id=f578bc6c-d696-48c1-84a6-460c551d9f64"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/9da940a2-82d0-4efc-808e-381292ac5321.jpg?im_w=320"
-                    alt="Redberth, UK">
-                <div class="img-text">
-                    <header class="country-name">Redberth, UK</header>
-                    <p class="description">Individual Host</p>
-                    <p class="date">10-15 Dec</p>
-                    <p class="rating">4.84</p>
-                    <p class="price"><span class="digits">£1065</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" Drimin, UK>
-            <a href="https://www.airbnb.co.uk/rooms/19997279?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=635202582&search_mode=flex_destinations_search&check_in=2024-09-20&check_out=2024-09-25&source_impression_id=p3_1702219277_42LiHbszaLVqUD3A&previous_page_section_name=1000&federated_search_id=f578bc6c-d696-48c1-84a6-460c551d9f64"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/b7c9264d-73c9-45c3-882e-6e9577d63d68.jpg?im_w=320"
-                    alt="Drimin, UK">
-                <div class="img-text">
-                    <header class="country-name">Drimin, UK</header>
-                    <p class="description">Individual Host</p>
-                    <p class="date">20-25 Sept</p>
-                    <p class="rating">4.94</p>
-                    <p class="price"><span class="digits">£994</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" Ponta Delgada, Portugal>
-            <a href="https://www.airbnb.co.uk/rooms/5264493?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1331524666&search_mode=flex_destinations_search&check_in=2023-12-17&check_out=2023-12-22&source_impression_id=p3_1702219584_k3vHL%2Ffnr20Lxdbm&previous_page_section_name=1000&federated_search_id=f578bc6c-d696-48c1-84a6-460c551d9f64"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/miso/Hosting-5264493/original/10d2c21f-84c2-46c5-b20b-b51d1c2c971a.jpeg?im_w=720"
-                    alt="Ponta Delgada, Portugal">
-                <div class="img-text">
-                    <header class="country-name">Ponta Delgada, Portugal</header>
-                    <p class="description">Professional Host</p>
-                    <p class="date">17-22 Dec</p>
-                    <p class="rating">4.93</p>
-                    <p class="price"><span class="digits">£622</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" Amsterdam, Netherlands>
-            <a href="https://www.airbnb.co.uk/rooms/20952140?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=384183136&search_mode=flex_destinations_search&check_in=2023-12-17&check_out=2023-12-22&source_impression_id=p3_1702220753_p1XG09M7HF7XpmcX&previous_page_section_name=1000&federated_search_id=f578bc6c-d696-48c1-84a6-460c551d9f64"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/miso/Hosting-20952140/original/75f46f73-7ae3-46e9-b437-588e4c18b5ea.jpeg?im_w=720"
-                    alt="Amsterdam, Netherlands">
-                <div class="img-text">
-                    <header class="country-name">Amsterdam, Netherlands</header>
-                    <p class="description">Professional Host</p>
-                    <p class="date">17-22 Dec</p>
-                    <!-- <p class="rating"> 4.92</p> -->
-                    <p class="price"><span class="digits">£3,774</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" Tervuren, Belgium>
-            <a href="https://www.airbnb.co.uk/rooms/609161492165382333?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1387621117&search_mode=flex_destinations_search&check_in=2024-09-30&check_out=2024-10-05&source_impression_id=p3_1702220753_Gy77DTW6cmG1j18C&previous_page_section_name=1000&federated_search_id=f578bc6c-d696-48c1-84a6-460c551d9f64"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/miso/Hosting-609161492165382333/original/90d03745-e550-49c3-891e-ec5b6dc40a75.jpeg?im_w=720"
-                    alt="Tervuren, Belgium">
-                <div class="img-text">
-                    <header class="country-name">Tervuren, Belgium</header>
-                    <p class="description">Individual Host</p>
-                    <p class="date">30 Sept-5 Oct</p>
-                    <p class="rating">4.85</p>
-                    <p class="price"><span class="digits">£741</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" Devon, UK>
-            <a href="https://www.airbnb.co.uk/rooms/699095541647431947?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1475300947&search_mode=flex_destinations_search&check_in=2024-01-21&check_out=2024-01-26&source_impression_id=p3_1702221738_8MhARGZLCcqmYDuC&previous_page_section_name=1000"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-699095541647431947/original/2c2221c3-d014-4b4f-a850-29ee47620304.jpeg?im_w=720"
-                    alt="Devon, UK">
-                <div class="img-text">
-                    <header class="country-name">Devon, UK</header>
-                    <p class="description">Professional Host</p>
-                    <p class="date">21-26 Jan</p>
-                    <!-- <p class="rating">4.92</p> -->
-                    <p class="price"><span class="digits">£3,720</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" Sutton, UK>
-            <a href="https://www.airbnb.co.uk/rooms/35134577?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=821603338&search_mode=flex_destinations_search&check_in=2024-03-13&check_out=2024-03-18&source_impression_id=p3_1702221738_ghbhLzYLx%2BPqQsmR&previous_page_section_name=1000"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/2e5550b5-628f-46a6-ae3b-93495384c15e.jpg?im_w=720"
-                    alt="Sutton, UK">
-                <div class="img-text">
-                    <header class="country-name">Sutton, UK</header>
-                    <p class="description">Individual Host</p>
-                    <p class="date">13-18 Mar</p>
-                    <p class="rating">4.92</p>
-                    <p class="price"><span class="digits">£959</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" Pembroke, UK>
-            <a href="https://www.airbnb.co.uk/rooms/42043514?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1077549152&search_mode=flex_destinations_search&check_in=2024-03-03&check_out=2024-03-08&source_impression_id=p3_1702221738_KAyNGQlicIGCc6Du&previous_page_section_name=1000"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/c579efd0-3a7a-4132-8bbb-cf7eeadc9806.jpg?im_w=720"
-                    alt="Ceredigion, UK">
-                <div class="img-text">
-                    <header class="country-name">Pembroke, UK</header>
-                    <p class="description">Individual Host</p>
-                    <p class="date">3-8 Mar</p>
-                    <p class="rating">4.96</p>
-                    <p class="price"><span class="digits">£819</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" Worstead, UK>
-            <a href="https://www.airbnb.co.uk/rooms/48974193?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1384597021&search_mode=flex_destinations_search&check_in=2024-01-05&check_out=2024-01-10&source_impression_id=p3_1702221738_28FKbR41ZEMsP5XN&previous_page_section_name=1000"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/miso/Hosting-48974193/original/dfc94d55-d670-42db-bdb8-ffda4fb2996b.jpeg?im_w=720"
-                    alt="Worstead, UK">
-                <div class="img-text">
-                    <header class="country-name">Worstead, UK</header>
-                    <p class="description">Professional Host</p>
-                    <p class="date">5-10 Jan</p>
-                    <p class="rating">4.84</p>
-                    <p class="price"><span class="digits">£732</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" Canterbury, UK>
-            <a href="https://www.airbnb.co.uk/rooms/36326963?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=797638057&search_mode=flex_destinations_search&check_in=2023-12-18&check_out=2023-12-23&source_impression_id=p3_1702221738_0ARcQ1fYSeXpcPK7&previous_page_section_name=1000"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/2ce2f829-7965-479a-af98-c5a84824ce06.jpg?im_w=720"
-                    alt="Canterbury, UK">
-                <div class="img-text">
-                    <header class="country-name">Canterbury, UK</header>
-                    <p class="description">Professional Host</p>
-                    <p class="date">18-23 Dec</p>
-                    <p class="rating">4.98</p>
-                    <p class="price"><span class="digits">£1,871</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" Pembrokeshire, UK>
-            <a href="https://www.airbnb.co.uk/rooms/47824542?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1150931101&search_mode=flex_destinations_search&check_in=2024-01-14&check_out=2024-01-19&source_impression_id=p3_1702221738_qT82d0Y5oh3%2BfSO6&previous_page_section_name=1000"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/25e609b3-332f-4083-b886-b801b8d1a755.jpg?im_w=720"
-                    alt="Pembrokeshire, UK">
-                <div class="img-text">
-                    <header class="country-name">Pembrokeshire, UK</header>
-                    <p class="description">Individual Host</p>
-                    <p class="date">14-19 Jan</p>
-                    <p class="rating">4.99</p>
-                    <p class="price"><span class="digits">£848</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" The Haven, Billingshurst, UK>
-            <a href="https://www.airbnb.co.uk/rooms/13126329?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1378624490&search_mode=flex_destinations_search&check_in=2024-01-07&check_out=2024-01-12&source_impression_id=p3_1702221738_hKEC5MLqQP9f8FZY&previous_page_section_name=1000"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/miso/Hosting-13126329/original/012c2934-0265-48b2-af94-a3b115eddba1.jpeg?im_w=720"
-                    alt="The Haven, Billingshurst, UK">
-                <div class="img-text">
-                    <header class="country-name">The Haven, Billingshurst, UK</header>
-                    <p class="description">Individual Host</p>
-                    <p class="date">7-12 Jan</p>
-                    <p class="rating">4.90</p>
-                    <p class="price"><span class="digits">£819</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" Preston, UK>
-            <a href="https://www.airbnb.co.uk/rooms/27567247?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1375025336&search_mode=flex_destinations_search&check_in=2023-12-11&check_out=2023-12-16&source_impression_id=p3_1702221738_vHoU5Qa2k3oyEmfF&previous_page_section_name=1000"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/miso/Hosting-27567247/original/7ef08899-92b2-44b6-bd8b-ba9a1b13e45e.jpeg?im_w=720"
-                    alt="Preston, UK">
-                <div class="img-text">
-                    <header class="country-name">Preston, UK</header>
-                    <p class="description">Professional Host</p>
-                    <p class="date">11-16 Dec</p>
-                    <p class="rating">4.86</p>
-                    <p class="price"><span class="digits">£778</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" Hatherton, UK>
-            <a href="https://www.airbnb.co.uk/rooms/14124160?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1480541434&search_mode=flex_destinations_search&check_in=2023-12-11&check_out=2023-12-16&source_impression_id=p3_1702221738_StOXDk0252R1IQk8&previous_page_section_name=1000"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/2215aa5c-f8b4-4295-9fa2-e33b693dbf8e.jpg?im_w=720"
-                    alt="Hatherton, UK">
-                <div class="img-text">
-                    <header class="country-name">Hatherton, UK</header>
-                    <p class="description">Individual Host</p>
-                    <p class="date">11-16 Dec</p>
-                    <p class="rating">4.95</p>
-                    <p class="price"><span class="digits">£351</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" Lincolnshire, UK>
-            <a href="https://www.airbnb.co.uk/rooms/34928149?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=760375860&search_mode=flex_destinations_search&check_in=2024-01-10&check_out=2024-01-15&source_impression_id=p3_1702221738_MTfqV6HszvXUUFyD&previous_page_section_name=1000"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/4d36806c-a68e-4d98-98d0-722fa478ed51.jpg?im_w=720"
-                    alt="Lincolnshire, UK">
-                <div class="img-text">
-                    <header class="country-name">Lincolnshire, UK</header>
-                    <p class="description">Professional Host</p>
-                    <p class="date">10-15 Jan</p>
-                    <p class="rating">4.89</p>
-                    <p class="price"><span class="digits">£403</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" Walterstone, UK>
-            <a href="https://www.airbnb.co.uk/rooms/608629036284538849?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1383423602&search_mode=flex_destinations_search&check_in=2024-04-29&check_out=2024-05-06&source_impression_id=p3_1702221738_tKEjxo%2BHgiqQAtn7&previous_page_section_name=1000"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/miso/Hosting-608629036284538849/original/68b2f914-7365-4482-9eb5-23089f8f3800.jpeg?im_w=720"
-                    alt="Walterstone, UK">
-                <div class="img-text">
-                    <header class="country-name">Walterstone, UK</header>
-                    <p class="description">Individual Host</p>
-                    <p class="date">29 Apr-6 May</p>
-                    <p class="rating">4.97</p>
-                    <p class="price"><span class="digits">£1,240</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" Cheshire East, UK>
-            <a href="https://www.airbnb.co.uk/rooms/33330821?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1060971290&search_mode=flex_destinations_search&check_in=2024-04-04&check_out=2024-04-09&source_impression_id=p3_1702221738_5RISKHC8dP9YL9pZ&previous_page_section_name=1000"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/1db57275-c036-4dbf-b896-32ee22253e48.jpg?im_w=720"
-                    alt="Cheshire East, UK">
-                <div class="img-text">
-                    <header class="country-name">Cheshire East, UK</header>
-                    <p class="description">Individual Host</p>
-                    <p class="date">4-9 Apr</p>
-                    <p class="rating">4.98</p>
-                    <p class="price"><span class="digits">£562</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" Somerset, UK>
-            <a href="https://www.airbnb.co.uk/rooms/42784271?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1037467978&search_mode=flex_destinations_search&check_in=2023-12-16&check_out=2023-12-21&source_impression_id=p3_1702221738_3EcbffMpTGMNCwj6&previous_page_section_name=1000"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/7cbb637b-23b9-47ad-a3c3-3d886ab2cc27.jpg?im_w=720"
-                    alt="Somerset, UK">
-                <div class="img-text">
-                    <header class="country-name">Somerset, UK</header>
-                    <p class="description">Professional Host</p>
-                    <p class="date">16-21 Dec</p>
-                    <p class="rating">4.85</p>
-                    <p class="price"><span class="digits">£824</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" Benenden, UK>
-            <a href="https://www.airbnb.co.uk/rooms/1237965?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=640282100&search_mode=flex_destinations_search&check_in=2024-01-21&check_out=2024-01-26&source_impression_id=p3_1702221738_f1bgOON3WAYbY9BX&previous_page_section_name=1000"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/22534107/2deed15c_original.jpg?im_w=720"
-                    alt="Benenden, UK">
-                <div class="img-text">
-                    <header class="country-name">Benenden, UK</header>
-                    <p class="description">Professional Host</p>
-                    <p class="date">21-26 Jan</p>
-                    <p class="rating">4.99</p>
-                    <p class="price"><span class="digits">£1,228</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" Martlesham, UK>
-            <a href="https://www.airbnb.co.uk/rooms/37479138?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1042583316&search_mode=flex_destinations_search&check_in=2023-12-11&check_out=2023-12-16&source_impression_id=p3_1702221738_NTJ%2B2Creyi3TMTse&previous_page_section_name=1000"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/76cdbfc7-5609-4239-8ecc-1a4deda6b092.jpg?im_w=720"
-                    alt="Martlesham, UK">
-                <div class="img-text">
-                    <header class="country-name">Martlesham, UK</header>
-                    <p class="description">Individual Host</p>
-                    <p class="date">11-16 Dec</p>
-                    <p class="rating">4.89</p>
-                    <p class="price"><span class="digits">£776</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" Monmouth, UK>
-            <a href="https://www.airbnb.co.uk/rooms/32102600?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1095591114&search_mode=flex_destinations_search&check_in=2023-12-10&check_out=2023-12-15&source_impression_id=p3_1702221738_Q8z6lbX1AxM%2B5gQc&previous_page_section_name=1000"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/a09e07bc-ed2f-4a91-987f-f4fe4695b9f2.jpg?im_w=720"
-                    alt="Monmouth, UK">
-                <div class="img-text">
-                    <header class="country-name">Monmouth, UK</header>
-                    <p class="description">Individual Host</p>
-                    <p class="date">10-15 Dec</p>
-                    <p class="rating">4.87</p>
-                    <p class="price"><span class="digits">£751</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" Nieuwdorp, Netherlands>
-            <a href="https://www.airbnb.co.uk/rooms/44551661?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1048244940&search_mode=flex_destinations_search&check_in=2024-02-26&check_out=2024-03-02&source_impression_id=p3_1702221738_MR3jk9aPVtDgBWiB&previous_page_section_name=1000"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/82b035c8-e32d-4802-83ab-33d723cae937.jpg?im_w=720"
-                    alt="Nieuwdorp, Netherlands">
-                <div class="img-text">
-                    <header class="country-name">Nieuwdorp, Netherlands</header>
-                    <p class="description">Professional Host</p>
-                    <p class="date">26 Feb-2 Mar</p>
-                    <p class="rating">4.92</p>
-                    <p class="price"><span class="digits">£727</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" Ropley, UK>
-            <a href="https://www.airbnb.co.uk/rooms/37107691?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1026873347&search_mode=flex_destinations_search&check_in=2023-12-12&check_out=2023-12-17&source_impression_id=p3_1702221738_SbhUZToddtjzyRFZ&previous_page_section_name=1000"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/dbbaa040-db25-4b17-9c24-4db6c32da39a.jpg?im_w=720"
-                    alt="Ropley, UK">
-                <div class="img-text">
-                    <header class="country-name">Ropley, UK</header>
-                    <p class="description">Individual Host</p>
-                    <p class="date">12-17 Dec</p>
-                    <p class="rating">4.88</p>
-                    <p class="price"><span class="digits">£1,099</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" Churchstanton, UK>
-            <a href="https://www.airbnb.co.uk/rooms/32663724?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1398926784&search_mode=flex_destinations_search&check_in=2023-12-11&check_out=2023-12-16&source_impression_id=p3_1702221738_TMTSkh4ruD7uPy9u&previous_page_section_name=1000"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/miso/Hosting-32663724/original/a3ffa114-1f3a-43df-8829-2622cf9d6a4a.jpeg?im_w=720"
-                    alt="Churchstanton, UK">
-                <div class="img-text">
-                    <header class="country-name">Churchstanton, UK</header>
-                    <p class="description">Individual Host</p>
-                    <p class="date">11-16 Dec</p>
-                    <p class="rating">4.99</p>
-                    <p class="price"><span class="digits">£988</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" Machynlleth, UK>
-            <a href="https://www.airbnb.co.uk/rooms/6347639?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=124986703&search_mode=flex_destinations_search&check_in=2023-12-11&check_out=2023-12-16&source_impression_id=p3_1702221738_iZSTL1SAfXxkixH7&previous_page_section_name=1000"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/db95f3fc-facd-42ee-9726-7b2b7a6c8a24.jpg?im_w=720"
-                    alt="Machynlleth, UK">
-                <div class="img-text">
-                    <header class="country-name">Machynlleth, UK</header>
-                    <p class="description">Individual Host</p>
-                    <p class="date">11-16 Dec</p>
-                    <p class="rating">4.93</p>
-                    <p class="price"><span class="digits">£292</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" Pennington, UK>
-            <a href="https://www.airbnb.co.uk/rooms/46428856?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1109827312&search_mode=flex_destinations_search&check_in=2023-12-10&check_out=2023-12-15&source_impression_id=p3_1702221738_TnVk9Yc6J0Y3y79%2F&previous_page_section_name=1000"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/af175b08-e5e0-4880-b87c-d40c84e9833d.jpg?im_w=720"
-                    alt="Pennington, UK">
-                <div class="img-text">
-                    <header class="country-name">Pennington, UK</header>
-                    <p class="description">Individual Host</p>
-                    <p class="date">10-15 Dec</p>
-                    <p class="rating">4.96</p>
-                    <p class="price"><span class="digits">£877</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" East Meon, UK>
-            <a href="https://www.airbnb.co.uk/rooms/12583720?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=990997529&search_mode=flex_destinations_search&check_in=2023-12-20&check_out=2023-12-25&source_impression_id=p3_1702221738_4Gea0fNW6TIC4D%2BW&previous_page_section_name=1000"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/6f362e2c-f084-462f-8434-5d3224498bfb.jpg?im_w=720"
-                    alt="East Meon, UK">
-                <div class="img-text">
-                    <header class="country-name">East Meon, UK</header>
-                    <p class="description">Individual Host</p>
-                    <p class="date">20-25 Dec</p>
-                    <p class="rating">4.88</p>
-                    <p class="price"><span class="digits">£760</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" Bergen aan Zee, Netherlands>
-            <a href="https://www.airbnb.co.uk/rooms/50072163?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1636758918&search_mode=flex_destinations_search&check_in=2024-01-05&check_out=2024-01-12&source_impression_id=p3_1702221738_apxcZ3YtWKCbluXF&previous_page_section_name=1000"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-50072163/original/4ed907dc-55d7-4ac7-a1f1-a8218c09b317.jpeg?im_w=720"
-                    alt="Bergen aan Zee, Netherlands">
-                <div class="img-text">
-                    <header class="country-name">Bergen aan Zee, Netherlands</header>
-                    <p class="description">Professional Host</p>
-                    <p class="date">5-12 Jan</p>
-                    <!-- <p class="rating">4.92</p> -->
-                    <p class="price"><span class="digits">£4,075</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" Amsterdam, Netherlands>
-            <a href="https://www.airbnb.co.uk/rooms/897037429506065313?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1658150043&search_mode=flex_destinations_search&check_in=2023-12-17&check_out=2023-12-22&source_impression_id=p3_1702221738_2IV81eSu0%2BhCYBpN&previous_page_section_name=1000"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/miso/Hosting-897037429506065313/original/787f9aed-e960-4885-92e5-59ab77572c82.jpeg?im_w=720"
-                    alt="Amsterdam, Netherlands">
-                <div class="img-text">
-                    <header class="country-name">Amsterdam, Netherlands</header>
-                    <p class="description">Professional Host</p>
-                    <p class="date">17-22 Dec</p>
-                    <!-- <p class="rating">4.92</p> -->
-                    <p class="price"><span class="digits">£141,511</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" Llan-y-pwll, UK>
-            <a href="https://www.airbnb.co.uk/rooms/25562597?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=509042810&search_mode=flex_destinations_search&check_in=2023-12-10&check_out=2023-12-15&source_impression_id=p3_1702221738_KjO00Iz1rQIDXP%2Fr&previous_page_section_name=1000"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/1276d996-706c-41c9-bc47-4a6b706fa482.jpg?im_w=720"
-                    alt="Llan-y-pwll, UK">
-                <div class="img-text">
-                    <header class="country-name">Llan-y-pwll, UK</header>
-                    <p class="description">Individual Host</p>
-                    <p class="date">10-15 Dec</p>
-                    <p class="rating">4.83</p>
-                    <p class="price"><span class="digits">£819</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" Zevenhuizen, Netherlands>
-            <a href="https://www.airbnb.co.uk/rooms/43481723?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1006768299&search_mode=flex_destinations_search&check_in=2023-12-16&check_out=2023-12-21&source_impression_id=p3_1702221738_slz5AjHTwgNgPzx4&previous_page_section_name=1000"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/b2a26fc2-ac98-498c-b646-7fe850199498.jpg?im_w=720"
-                    alt="Zevenhuizen, Netherlands">
-                <div class="img-text">
-                    <header class="country-name">Zevenhuizen, Netherlands</header>
-                    <p class="description">Individual Host</p>
-                    <p class="date">16-21 Dec</p>
-                    <p class="rating">4.94</p>
-                    <p class="price"><span class="digits">£848</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" West Sussex, UK>
-            <a href="https://www.airbnb.co.uk/rooms/35932590?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=811262897&search_mode=flex_destinations_search&check_in=2023-12-18&check_out=2023-12-23&source_impression_id=p3_1702221738_JVs911ahDfjHGIEv&previous_page_section_name=1000"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/bdcf791f-6be2-4ff6-929b-39e5d3d6e59f.jpg?im_w=720"
-                    alt="West Sussex, UK">
-                <div class="img-text">
-                    <header class="country-name">West Sussex, UK</header>
-                    <p class="description">Professional Host</p>
-                    <p class="date">18-23 Dec</p>
-                    <p class="rating">4.67</p>
-                    <p class="price"><span class="digits">£838</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" Cockfield, UK>
-            <a href="https://www.airbnb.co.uk/rooms/17712715?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=501366143&search_mode=flex_destinations_search&check_in=2024-04-21&check_out=2024-04-26&source_impression_id=p3_1702221738_Bzcn%2FvVbKMsnfBgM&previous_page_section_name=1000"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/0dfd154b-cbc5-4a41-bed7-59779f150dd6.jpg?im_w=720"
-                    alt="Cockfield, UK">
-                <div class="img-text">
-                    <header class="country-name">Cockfield, UK</header>
-                    <p class="description">Professional Host</p>
-                    <p class="date">21-26 Apr</p>
-                    <!-- <p class="rating">4.92</p> -->
-                    <p class="price"><span class="digits">£2,888</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" Winchester, UK>
-            <a href="https://www.airbnb.co.uk/rooms/5165923?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=220775213&search_mode=flex_destinations_search&check_in=2024-01-08&check_out=2024-01-13&source_impression_id=p3_1702221738_HEYs%2FKP8Pc%2BQo15t&previous_page_section_name=1000"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/856b83fc-f4c8-4ae3-8ab0-4e81fcd9727a.jpg?im_w=720"
-                    alt="Winchester, UK">
-                <div class="img-text">
-                    <header class="country-name">Winchester, UK</header>
-                    <p class="description">Individual Host</p>
-                    <p class="date">8-13 Jan</p>
-                    <p class="rating">4.90</p>
-                    <p class="price"><span class="digits">£1,169</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" Amsterdam, Netherlands>
-            <a href="https://www.airbnb.co.uk/rooms/20952129?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=384183236&search_mode=flex_destinations_search&check_in=2023-12-11&check_out=2023-12-16&source_impression_id=p3_1702221738_Neuot3EnpnASDRrT&previous_page_section_name=1000"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/5d741bbe-61bf-4168-8ecb-3e0b063d2e1e.jpg?im_w=720"
-                    alt="Sutton, UK">
-                <div class="img-text">
-                    <header class="country-name">Amsterdam, Netherlands</header>
-                    <p class="description">Professional Host</p>
-                    <p class="date">11-16 Dec</p>
-                    <!-- <p class="rating">4.92</p> -->
-                    <p class="price"><span class="digits">£3,604</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" Carmarthenshire, UK>
-            <a href="https://www.airbnb.co.uk/rooms/12279719?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=141213556&search_mode=flex_destinations_search&check_in=2023-12-11&check_out=2023-12-16&source_impression_id=p3_1702221738_oob40GxNM34I%2B0ZB&previous_page_section_name=1000"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/6aef5497-da10-4647-88e4-a13940589a71.jpg?im_w=720"
-                    alt="Carmarthenshire, UK">
-                <div class="img-text">
-                    <header class="country-name">Carmarthenshire, UK</header>
-                    <p class="description">Individual Host</p>
-                    <p class="date">11-16 Dec</p>
-                    <p class="rating">4.98</p>
-                    <p class="price"><span class="digits">£1,052</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" Amsterdam, Netherlands>
-            <a href="https://www.airbnb.co.uk/rooms/20952152?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=384183236&search_mode=flex_destinations_search&check_in=2023-12-11&check_out=2023-12-16&source_impression_id=p3_1702221738_BkpXdWbD1XUUHLaf&previous_page_section_name=1000"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/miso/Hosting-20952152/original/0c9c6508-aac0-4ff7-83b9-ea2c5fcfe4c1.jpeg?im_w=720"
-                    alt="Amsterdam, Netherlands">
-                <div class="img-text">
-                    <header class="country-name">Amsterdam, Netherlands</header>
-                    <p class="description">Professional Host</p>
-                    <p class="date">11-16 Dec</p>
-                    <!-- <p class="rating">4.92</p> -->
-                    <p class="price"><span class="digits">£3,604</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" Ramsdean, UK>
-            <a href="https://www.airbnb.co.uk/rooms/51879539?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1244002784&search_mode=flex_destinations_search&check_in=2023-12-13&check_out=2023-12-18&source_impression_id=p3_1702221738_DYdeH%2BKoGsi%2B1SyK&previous_page_section_name=1000"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-51879539/original/809bcf7e-acdc-43dd-8144-356d4312dcf5.jpeg?im_w=720"
-                    alt="Ramsdean, UK">
-                <div class="img-text">
-                    <header class="country-name">Ramsdean, UK</header>
-                    <p class="description">Professional Host</p>
-                    <p class="date">13-18 Dec</p>
-                    <p class="rating">4.97</p>
-                    <p class="price"><span class="digits">£704</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" Colgate, UK>
-            <a href="https://www.airbnb.co.uk/rooms/43232620?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1050425806&search_mode=flex_destinations_search&check_in=2024-04-01&check_out=2024-04-06&source_impression_id=p3_1702221738_wDbdZ83P%2B%2FxV4ttv&previous_page_section_name=1000"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/73dfe7f7-3b62-4038-9964-03781ef16aac.jpg?im_w=720"
-                    alt="Colgate, UK">
-                <div class="img-text">
-                    <header class="country-name">Worstead, UK</header>
-                    <p class="description">Individual Host</p>
-                    <p class="date">1-6 April</p>
-                    <p class="rating">4.92</p>
-                    <p class="price"><span class="digits">£707</span> total</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container" Medstead, UK>
-            <a href="https://www.airbnb.co.uk/rooms/10149264?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1033198810&search_mode=flex_destinations_search&check_in=2024-01-21&check_out=2024-01-26&source_impression_id=p3_1702221738_bfGhYoA%2BwJACL9gX&previous_page_section_name=1000"
-                target="_blank">
-                <img class="Heart" src="Icons/Heart.png" alt="Heart">
-                <img class="Heart-Filled" src="Icons/Heart(Filled).png" alt="Heart(Filled)">
-                <img class="location-image"
-                    src="https://a0.muscache.com/im/pictures/369f9a41-ed52-4938-97d6-5117781074fb.jpg?im_w=720"
-                    alt="Medstead, UK">
-                <div class="img-text">
-                    <header class="country-name">Medstead, UK</header>
-                    <p class="description">Individual Host</p>
-                    <p class="date">21-26 Jan</p>
-                    <p class="rating">4.95</p>
-                    <p class="price"><span class="digits">£1,051</span> total</p>
-                </div>
-            </a>
-        </div>
-    </div>
-    <div class="Footer-Button">
-        <header class="button-title">Continue exploring Airbnb homes</header>
-        <div class="show-more-container">
-            <a href="https://www.airbnb.co.uk" target="_blank">
-                <div class="show-more">Show more</div>
-            </a>
-        </div>
-    </div>
-    <footer>
-        <div class="footer-container">
-            <h2>Inspiration for future getaways</h2>
-            <div class="Inspiration-Headings"></div>
-            <div class="inspiration">
-                <ul>
-                    <span class="titles-span">Popular</span>
-                    <span class="titles-span">Historic</span>
-                    <span class="titles-span">Coastal</span>
-                    <span class="titles-span">Islands</span>
-                    <span class="titles-span">Lakes</span>
-                    <span class="titles-span">Unique Stays</span>
-                    <span class="titles-span">Categories</span>
-                    <span class="titles-span">Things to do</span>
-                </ul>
-            </div>
-            <div id="line-break"></div>
-            <div class="future-getaways-grid">
-                <ul class="inspiration-order">
-                    <li class="Inspiration-Link">
-                        <a class="getaways-links" href="https://www.airbnb.co.uk/aberfeldy-united-kingdom/stays"
-                            target="_blank">
-                            <span class="Inspire-place-name">Aberfeldy</span>
-                            <span>Holiday Rentals</span>
-                        </a>
-                    </li>
-                    <li class="Inspiration-Link">
-                        <a class="getaways-links" href="https://www.airbnb.co.uk/amsterdam-netherlands/stays/bungalows"
-                            target="_blank">
-                            <span class="Inspire-place-name">Amsterdam</span>
-                            <span>Bungalow rentals</span>
-                        </a>
-                    </li>
-                    <li class="Inspiration-Link">
-                        <a class="getaways-links" href="https://www.airbnb.co.uk/athens-greece/stays/villas"
-                            target="_blank">
-                            <span class="Inspire-place-name">Athens</span>
-                            <span>Villa rentals</span>
-                        </a>
-                    </li>
-                    <li class="Inspiration-Link">
-                        <a class="getaways-links" href="https://www.airbnb.co.uk/aviemore-united-kingdom/stays"
-                            target="_blank">
-                            <span class="Inspire-place-name">Aviemore</span>
-                            <span>Holiday rentals</span>
-                        </a>
-                    </li>
-                    <li class="Inspiration-Link">
-                        <a class="getaways-links" href="https://www.airbnb.co.uk/bakewell-united-kingdom/stays"
-                            target="_blank">
-                            <span class="Inspire-place-name">Bakewell</span>
-                            <span>Holiday rentals</span>
-                        </a>
-                    </li>
-                    <li class="Inspiration-Link">
-                        <a class="getaways-links" href="https://www.airbnb.co.uk/barcelona-spain/stays" target="_blank">
-                            <span class="Inspire-place-name">Barcelona</span>
-                            <span>Flat rentals</span>
-                        </a>
-                    </li>
-                    <li class="Inspiration-Link">
-                        <a class="getaways-links" href="https://www.airbnb.co.uk/bath-united-kingdom/stays/cabins"
-                            target="_blank">
-                            <span class="Inspire-place-name">Bath</span>
-                            <span>Cabin rentals</span>
-                        </a>
-                    </li>
-                    <li class="Inspiration-Link">
+                                <span class="Inspire-place-name">Show more <img class="Down-Show"
+                                        src="Icons/down-arrow.svg" alt="Down-arrow"></span>
 
-                        <span class="Inspire-place-name">Show more <img class="Down-Show" src="Icons/down-arrow.svg"
-                                alt="Down-arrow"></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="line-break"></div>
+                    <div class="supports-footer-container">
+                        <div class="supports-links">
+                            <h3>Support</h3>
+                            <ul class="support-links-grid">
+                                <a href="https://www.airbnb.co.uk/help/home?from=footer" target="_blank">
+                                    <li>Help center</li>
+                                </a>
+                                <a href="https://www.airbnb.co.uk/aircover" target="_blank">
+                                    <li>AirCover</li>
+                                </a>
+                                <a href="https://www.airbnb.co.uk/against-discrimination" target="_blank">
+                                    <li>Anti-discrimination</li>
+                                </a>
+                                <a href="https://www.airbnb.co.uk/accessibility" target="_blank">
+                                    <li>Disability Support</li>
+                                </a>
+                                <a href="https://www.airbnb.co.uk/help/article/2701/extenuating-circumstances-policy-and-the-coronavirus-covid19"
+                                    target="_blank">
+                                    <li>Cancellation options</li>
+                                </a>
+                                <a href="https://www.airbnb.co.uk/neighbors" target="_blank">
+                                    <li>Report neighbourhood concerns</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div id="line-break"></div>
+                        <div class="supports-links">
+                            <h3>Hosting</h3>
+                            <ul class="support-links-grid">
+                                <a href="https://www.airbnb.co.uk/help/home?from=footer" target="_blank">
+                                    <li>Airbnb your home</li>
+                                </a>
+                                <a href="https://www.airbnb.co.uk/aircover-for-hosts" target="_blank">
+                                    <li>AirCover for Hosts</li>
+                                </a>
+                                <a href="https://www.airbnb.co.uk/resources" target="_blank">
+                                    <li>Hosting resources</li>
+                                </a>
+                                <a href="https://www.airbnb.co.uk/accessibility" target="_blank">
+                                    <li>Community forum</li>
+                                </a>
+                                <a href="https://www.airbnb.co.uk/help/responsible-hosting" target="_blank">
+                                    <li>Hosting responsibly</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div id="line-break"></div>
+                        <div class="supports-links">
+                            <h3>Airbnb</h3>
+                            <ul class="support-links-grid">
+                                <a href="https://www.airbnb.co.uk/press/news" target="_blank">
+                                    <li>Newsroom</li>
+                                </a>
+                                <a href="https://www.airbnb.co.uk/release" target="_blank">
+                                    <li>New features</li>
+                                </a>
+                                <a href="https://www.airbnb.co.uk/careers" target="_blank">
+                                    <li>Careers</li>
+                                </a>
+                                <a href="https://investors.airbnb.com/" target="_blank">
+                                    <li>Investors</li>
+                                </a>
+                                <a href="https://www.airbnb.co.uk/giftcards" target="_blank">
+                                    <li>Gift cards</li>
+                                </a>
+                                <a href="https://www.airbnb.org/?locale=en-GB" target="_blank">
+                                    <li>Airbnb.org emergency stays</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div id="line-break"></div>
+                    </div>
+                    <div class="footer-end">
+                        <div class="social-links">
+                            <span class="world-logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"
+                                    style="display: block; height: 1rem; width: 1rem; fill: currentcolor;"
+                                    aria-hidden="true" role="presentation" focusable="false">
+                                    <path
+                                        d="M8 .25a7.77 7.77 0 0 1 7.75 7.78 7.75 7.75 0 0 1-7.52 7.72h-.25A7.75 7.75 0 0 1 .25 8.24v-.25A7.75 7.75 0 0 1 8 .25zm1.95 8.5h-3.9c.15 2.9 1.17 5.34 1.88 5.5H8c.68 0 1.72-2.37 1.93-5.23zm4.26 0h-2.76c-.09 1.96-.53 3.78-1.18 5.08A6.26 6.26 0 0 0 14.17 9zm-9.67 0H1.8a6.26 6.26 0 0 0 3.94 5.08 12.59 12.59 0 0 1-1.16-4.7l-.03-.38zm1.2-6.58-.12.05a6.26 6.26 0 0 0-3.83 5.03h2.75c.09-1.83.48-3.54 1.06-4.81zm2.25-.42c-.7 0-1.78 2.51-1.94 5.5h3.9c-.15-2.9-1.18-5.34-1.89-5.5h-.07zm2.28.43.03.05a12.95 12.95 0 0 1 1.15 5.02h2.75a6.28 6.28 0 0 0-3.93-5.07z">
+                                    </path>
+                                </svg></span>
+                            <span class="language-select">English(GB)</span>
+                            <span class="GBP">£ GBP</span>
+                            <span class="facebook"><a href="https://www.facebook.com/airbnbuk/?brand_redir=324826532457"
+                                    target="_blank"><img src="Icons/Facebook_Logo.png" alt="Facebook"></a></span>
+                            <span class="twitter"><a href="https://twitter.com/airbnb" target="_blank"><img
+                                        src="Icons/Twitter_Logo.png" alt="Twitter"></a></span>
+                            <span class="instagram"><a href="https://instagram.com/airbnb" target="_blank"><img
+                                        src="Icons/Instagram_Logo.png" alt="Instagram"></Img></a></span>
+                        </div>
+                        <div class="privacy-copyright">
+                            <button class="copyright">&#169 2023 Airbnb, Inc.</button>
+                            <div class="privacy">
+                                <a href="https://www.airbnb.co.uk/terms/privacy_policy" target="_blank">Privacy</a>
+                                <span>&#x2024</span>
+                                <a href="https://www.airbnb.co.uk/terms" target="_blank">Terms</a>
+                                <span>&#x2024</span>
+                                <a href="https://www.airbnb.co.uk/sitemaps/v2" target="_blank">Sitemap</a>
+                                <span>&#x2024</span>
+                                <a href="https://a0.muscache.com/static/uk-modern-slavery-act-statement.pdf"
+                                    target="_blank">UK
+                                    Modern Slavery Act</a>
+                                <span>&#x2024</span>
+                                <a href="https://www.airbnb.co.uk/about/company-details" target="_blank">Company
+                                    details</a>
+                            </div>
+                        </div>
 
-                    </li>
-                </ul>
-            </div>
-            <div id="line-break"></div>
-            <div class="supports-footer-container">
-                <div class="supports-links">
-                    <h3>Support</h3>
-                    <ul class="support-links-grid">
-                        <a href="https://www.airbnb.co.uk/help/home?from=footer" target="_blank">
-                            <li>Help center</li>
-                        </a>
-                        <a href="https://www.airbnb.co.uk/aircover" target="_blank">
-                            <li>AirCover</li>
-                        </a>
-                        <a href="https://www.airbnb.co.uk/against-discrimination" target="_blank">
-                            <li>Anti-discrimination</li>
-                        </a>
-                        <a href="https://www.airbnb.co.uk/accessibility" target="_blank">
-                            <li>Disability Support</li>
-                        </a>
-                        <a href="https://www.airbnb.co.uk/help/article/2701/extenuating-circumstances-policy-and-the-coronavirus-covid19"
-                            target="_blank">
-                            <li>Cancellation options</li>
-                        </a>
-                        <a href="https://www.airbnb.co.uk/neighbors" target="_blank">
-                            <li>Report neighbourhood concerns</li>
-                        </a>
-                    </ul>
-                </div>
-                <div id="line-break"></div>
-                <div class="supports-links">
-                    <h3>Hosting</h3>
-                    <ul class="support-links-grid">
-                        <a href="https://www.airbnb.co.uk/help/home?from=footer" target="_blank">
-                            <li>Airbnb your home</li>
-                        </a>
-                        <a href="https://www.airbnb.co.uk/aircover-for-hosts" target="_blank">
-                            <li>AirCover for Hosts</li>
-                        </a>
-                        <a href="https://www.airbnb.co.uk/resources" target="_blank">
-                            <li>Hosting resources</li>
-                        </a>
-                        <a href="https://www.airbnb.co.uk/accessibility" target="_blank">
-                            <li>Community forum</li>
-                        </a>
-                        <a href="https://www.airbnb.co.uk/help/responsible-hosting" target="_blank">
-                            <li>Hosting responsibly</li>
-                        </a>
-                    </ul>
-                </div>
-                <div id="line-break"></div>
-                <div class="supports-links">
-                    <h3>Airbnb</h3>
-                    <ul class="support-links-grid">
-                        <a href="https://www.airbnb.co.uk/press/news" target="_blank">
-                            <li>Newsroom</li>
-                        </a>
-                        <a href="https://www.airbnb.co.uk/release" target="_blank">
-                            <li>New features</li>
-                        </a>
-                        <a href="https://www.airbnb.co.uk/careers" target="_blank">
-                            <li>Careers</li>
-                        </a>
-                        <a href="https://investors.airbnb.com/" target="_blank">
-                            <li>Investors</li>
-                        </a>
-                        <a href="https://www.airbnb.co.uk/giftcards" target="_blank">
-                            <li>Gift cards</li>
-                        </a>
-                        <a href="https://www.airbnb.org/?locale=en-GB" target="_blank">
-                            <li>Airbnb.org emergency stays</li>
-                        </a>
-                    </ul>
-                </div>
-                <div id="line-break"></div>
-            </div>
-            <div class="footer-end">
-                <div class="social-links">
-                    <span class="world-logo"><img src="Icons/world-logo.png" alt="world-logo"></span>
-                    <span class="language-select">English(GB)</span>
-                    <span class="GBP">£ GBP</span>
-                    <span class="facebook"><a href="https://www.facebook.com/airbnbuk/?brand_redir=324826532457"
-                            target="_blank"><img src="Icons/Facebook_Logo.png" alt="Facebook"></a></span>
-                    <span class="twitter"><a href="https://twitter.com/airbnb" target="_blank"><img
-                                src="Icons/Twitter_Logo.png" alt="Twitter"></a></span>
-                    <span class="instagram"><a href="https://instagram.com/airbnb" target="_blank"><img
-                                src="Icons/Instagram_Logo.png" alt="Instagram"></Img></a></span>
-                </div>
-                <div class="privacy-copyright">
-                    <button class="copyright">&#169 2023 Airbnb, Inc.</button>
-                    <div class="privacy">
-                        <a href="https://www.airbnb.co.uk/terms/privacy_policy" target="_blank">Privacy</a>
-                        <span>&#x2024</span>
-                        <a href="https://www.airbnb.co.uk/terms" target="_blank">Terms</a>
-                        <span>&#x2024</span>
-                        <a href="https://www.airbnb.co.uk/sitemaps/v2" target="_blank">Sitemap</a>
-                        <span>&#x2024</span>
-                        <a href="https://a0.muscache.com/static/uk-modern-slavery-act-statement.pdf" target="_blank">UK
-                            Modern Slavery Act</a>
-                        <span>&#x2024</span>
-                        <a href="https://www.airbnb.co.uk/about/company-details" target="_blank">Company details</a>
+
                     </div>
                 </div>
-
-
-            </div>
+            </footer>
         </div>
-    </footer>
-
+    </div>
 </body>
-
 
 </html>
