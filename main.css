@@ -279,7 +279,13 @@ body {
 	white-space: nowrap;
 }
 
-.icon-text-holder::after {
+.active {
+	opacity: 1;
+	cursor: pointer;
+	transform: scale(95%);
+}
+
+.active::after {
 	background-color: var(--color-dark);
 	opacity: 1;
 	inset-inline: 0;
@@ -345,13 +351,8 @@ body {
 	cursor: pointer;
 }
 
-.active {
-	opacity: 1;
-	cursor: pointer;
-	transform: scale(95%);
-}
-
 .active2 {
+	scale: 115%;
 	fill: rgb(190, 29, 29);
 }
 
