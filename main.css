@@ -265,13 +265,7 @@ body {
 	align-items: center;
 	gap: var(--gapxsmall);
 	min-width: revert;
-	transition: var(--transitions);
-}
-
-.icons2:hover {
-	opacity: 1;
 	cursor: pointer;
-	transform: scale(95%);
 }
 
 .icon-images {
@@ -346,7 +340,19 @@ body {
 	position: absolute;
 	top: 0.62rem;
 	right: 0.62rem;
-	z-index: 1;
+	z-index: 0;
+	fill: rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+}
+
+.active {
+	opacity: 1;
+	cursor: pointer;
+	transform: scale(95%);
+}
+
+.active2 {
+	fill: rgb(190, 29, 29);
 }
 
 .img-text {
