@@ -108,11 +108,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	position: sticky;
-<<<<<<< HEAD
 	top: 0px;
-=======
-	top: 0;
->>>>>>> JSPractice
 	z-index: 3;
 	height: 9rem;
 }
