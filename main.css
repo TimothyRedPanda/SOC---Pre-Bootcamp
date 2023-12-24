@@ -302,16 +302,6 @@ body {
 	width: 100%;
 	height: 2px;
 	z-index: 1;
-	animation: scale-up 0.3s ease-in-out;
-}
-
-@keyframes scale-up {
-	0% {
-		scale: 0;
-	}
-	100% {
-		scale: 1;
-	}
 }
 
 #container1 {
@@ -367,12 +357,13 @@ body {
 	margin-bottom: var(--marginbottomS);
 }
 
+
 .Heart {
 	position: absolute;
 	top: 0.62rem;
 	right: 0.62rem;
+	fill: rgba(0 0 0/0.5);
 	z-index: 0;
-	fill: rgba(0, 0, 0, 0.5);
 	cursor: pointer;
 }
 
@@ -382,10 +373,10 @@ body {
 
 @keyframes scale-item {
 	0% {
-		scale: 0.8;
+		transform: scale(0.95);
 	}
 	100% {
-		scale: 1;
+		transform: scale(1);
 	}
 }
 
