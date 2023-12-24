@@ -100,6 +100,7 @@ body {
 
 .page-wrapper {
 	position: relative;
+	width: 100vw;
 	z-index: 0;
 	min-height: calc(65px + 100vh);
 }
@@ -226,6 +227,7 @@ body {
 }
 
 .icons-filter-places {
+	scrollbar-width: none;
 	overflow-x: scroll;
 	overflow-y: hidden;
 	background-color: var(--color-light);
@@ -260,6 +262,7 @@ body {
 
 .icons2 {
 	display: flex;
+	scale:1;
 	opacity: 0.4;
 	flex-direction: column;
 	align-items: center;
@@ -282,18 +285,38 @@ body {
 .active {
 	opacity: 1;
 	cursor: pointer;
-	transform: scale(95%);
+	animation: opacity 1s ease-in-out;
+}
+
+@keyframes opacity {
+	0% {
+		opacity: 0.4;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 .active::after {
 	background-color: var(--color-dark);
-	opacity: 1;
+	opacity: 0.2;
 	inset-inline: 0;
 	position: absolute;
+	border-radius: 62.5rem;
 	content: "";
 	height: 0.125rem;
-	top: calc(100% + 0.625rem);
+	top: calc(100% + 0.55rem);
 	transition: var(--transitions);
+	animation: scale-up 0.3s ease-in-out;
+}
+
+@keyframes scale-up {
+	0% {
+		scale: 0;
+	}
+	100% {
+		scale: 1;
+	}
 }
 
 #container1 {
@@ -352,8 +375,16 @@ body {
 }
 
 .active2 {
-	scale: 115%;
-	fill: rgb(190, 29, 29);
+	animation: scale-item 0.5s ease-in-out;
+}
+
+@keyframes scale-item {
+	0% {
+		scale: 0.8;
+	}
+	100% {
+		scale: 1;
+	}
 }
 
 .img-text {
