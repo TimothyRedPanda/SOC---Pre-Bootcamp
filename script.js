@@ -6,14 +6,6 @@ nav.forEach((nav) => {
 	})
 })
 
-const span = document.querySelectorAll(".Heart")
-span.forEach((span) => {
-	span.addEventListener("click", () => {
-		document.querySelector(".active2")?.classList.remove("active2")
-		span.classList.add("active2")
-	})
-})
-
 let scrollContainer = document.querySelector('.icons-filter-places');
 
 scrollContainer.addEventListener('wheel', (evt) => {

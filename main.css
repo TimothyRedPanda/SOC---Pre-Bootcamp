@@ -365,20 +365,13 @@ body {
 	fill: rgba(0 0 0/0.5);
 	z-index: 0;
 	cursor: pointer;
+	transition: all 0.25s ease-in-out;
 }
 
-.active2 {
-	animation: scale-item 0.5s ease-in-out;
+.Heart:hover {
+	scale:105%;
 }
 
-@keyframes scale-item {
-	0% {
-		transform: scale(0.95);
-	}
-	100% {
-		transform: scale(1);
-	}
-}
 
 .img-text {
 	display: grid;
