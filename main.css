@@ -495,7 +495,7 @@ h2 {
 	transition: var(--transitions);
 }
 
-.titles-span:hover {
+.titles-span:hover, .titles-span:active {
 	cursor: pointer;
 	color: var(--color-grey);
 	border-bottom: var(--border-bottom);
