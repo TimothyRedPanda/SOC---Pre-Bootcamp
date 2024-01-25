@@ -98,7 +98,6 @@ body {
 }
 
 .page-wrapper {
-	position: relative;
 	width: 100vw;
 	z-index: 0;
 	min-height: calc(65px + 100vh);
