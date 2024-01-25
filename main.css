@@ -66,8 +66,8 @@ html {
 	--padding10: 1.5rem 0 1.5rem 0;
 	--padding11: 1rem;
 	--marginZero: 0;
-	--margin1: 0 375rem 0 0 0;
-	--margin3: 0 375rem 0 0 0;
+	--margin1: 0 0.375rem 1rem 0;
+	--margin3: 0 0.375rem 1rem 0;
 	--margin4: 0 0 2.5rem 0;
 	--margin5: 0.8rem 0 0.8rem 0;
 	--margin6: 0 0 1.125rem 0;
@@ -347,6 +347,13 @@ body {
 	.image-container {
 		width: 20.813rem;
 		height: 26.125rem;
+	}
+}
+
+@media all and (max-width: 350px) {
+	.image-container {
+		width: 90vmin;
+		height: fit-content;
 	}
 }
 
